@@ -5,11 +5,10 @@
 	Yale University, Spring 2019
 	E&EB 723
 
-	Time: TBD
-	Location: TBD
+	Time: Thursday 1-3
+	Location: OML 551
 	
 	Instructor: Casey Dunn
-	Office hours: TBD
 	Prepend the subject line of all course related emails with "genomics: "
 
 

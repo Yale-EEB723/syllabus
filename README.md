@@ -12,7 +12,7 @@
 	Prepend the subject line of all course related emails with "genomics: "
 
 
-The field of evolutionary biology is increasingly drawing on genomic data. The field of genomic biology is becoming more evolutionary in focus as genomes are sequenced for a broader diversity of organisms. This course focuses on the evolution of genome sequences and function at macroevolutionary timescales, with a focus on building practical computational skills for genomic and phylogenetic comparative analyses.
+The field of evolutionary biology is increasingly drawing on genomic data. The field of genomic biology is becoming more evolutionary as genomes are sequenced for a broader diversity of organisms. This course focuses on the evolution of genome sequence and function at macroevolutionary timescales, with a focus on building practical computational skills for genomic and phylogenetic comparative analyses. There will be more focus on using phylogenies to understand genome evolution than on using genomes to build phylogenies.
 
 ## Technical details
 
@@ -29,6 +29,8 @@ All materials for the course, including the syllabus, are available at the [cour
 ## Projects
 
 The class will work collaboratively on projects to assemble and annotate genomes, and then to analyze them in an evolutionary comparative context. Students will be leaders on subprojects within this larger collaborative framework.
+
+We will focus on publicly available data, but if students have their own genome data we can also analyze those.
 
 
 ## Reading

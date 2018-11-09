@@ -16,7 +16,13 @@ The field of evolutionary biology is increasingly drawing on genomic data. The f
 
 ## Technical details
 
-This course is organized with [github education tools](https://education.github.com/guide). The course will make heavy use of [git](https://git-scm.com/) for sharing, communication, and collaboration. All students need to have a github account, preferably one that is registered to thier Yale email address so that they get the full academic features.
+### Git
+
+This course is organized with [github education tools](https://education.github.com/guide). The course will make heavy use of [git](https://git-scm.com/) for sharing, communication, and collaboration. All students need to have a github account, preferably one that is registered to their Yale email address so that they get the [full academic features](https://education.github.com/discount).
+
+### HPC
+
+The class will be given student cluster accounts on one of the Yale High Performance Compute (HPC) clusters. Access to both compute and storage resources will last the course of the semester, after which data need to be copied elsewhere if they are important enough to be saved.
 
 ## Course format
 
@@ -37,7 +43,7 @@ We will focus on publicly available data, but if students have their own genome 
 
 Reading includes manuscripts, book chapters, online resources, and videos to be watched ahead of class. The dates the readings will be discussed in class are listed in the schedule, but some will be useful to you much earlier as you work on your projects. In addition, the reading load is very uneven. On light weeks, it is good to get a jump on reading for future weeks.
 
-In addition to reading assigned for each class, the following will be used as references thorughout the course:
+In addition to reading assigned for each class, the following will be used as references throughout the course:
 
 Haddock, SHD and CW Dunn (2011). Practical Computing for Biologists. [amazon](http://www.amazon.com/Practical-Computing-Biologists-Steven-Haddock/dp/0878933913/ref=sr_1_1)
 

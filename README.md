@@ -6,7 +6,7 @@
 	E&EB 723
 
 	Time: Thursday 1-3
-	Location: OML 551
+	Location: ESC 100
 	
 	Instructor: Casey Dunn
 	Prepend the subject line of all course related emails with "genomics: "

@@ -34,9 +34,10 @@ All materials for the course, including the syllabus, are available at the [cour
 
 ## Projects
 
-The class will work collaboratively on projects to assemble and annotate genomes, and then to analyze them in an evolutionary comparative context. Students will be leaders on subprojects within this larger collaborative framework.
+Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course.
 
-We will focus on publicly available data, but if students have their own genome data we can also analyze those.
+The final project can consider a research project already in progress (eg something that is part of thhehsis research), analysis of publicly available data, analysis of simulated data, development and testing of statistical methods or software, etc. Ideally each project will advance the existing research goals of each student, or advance an interesting topic identified in the course.
+
 
 
 ## Reading
@@ -83,6 +84,15 @@ Discussion leader: Casey Dunn
 
 #### Agenda and notes
 
+- Sequencing technology and instruments
+
+- Genome sequencing
+	- Challenging factors
+		- Large size
+		- Repeats
+		- Heterozygosity
+
+
 
 ### Week 3, January 31 - Practical computing skills
 
@@ -95,10 +105,11 @@ git chapter draft (to be provided as hard copy in previous week)
 
 #### Agenda and notes
 
+- Quick (<1 minute) description of final project plan
+
 - Working on your laptop
 - Working on the cluster via your account
 - Getting started with git
-
 
 ### Week 4 - Genome assembly
 

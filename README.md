@@ -34,9 +34,9 @@ All materials for the course, including the syllabus, are available at the [cour
 
 ## Projects
 
-Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course.
+Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course. After the team and topic are set, the project will be developed and submitted as a git repository forked from https://github.com/Yale-EEB723/finalproject .
 
-The final project can consider a research project already in progress (eg something that is part of thhehsis research), analysis of publicly available data, analysis of simulated data, development and testing of statistical methods or software, etc. Ideally each project will advance the existing research goals of each student, or advance an interesting topic identified in the course.
+The final project can consider a research project already in progress (eg something that is part of thesis research), analysis of publicly available data, analysis of simulated data, development and testing of statistical methods or software, etc. Ideally each project will advance the existing research goals of each student, or advance an interesting topic identified in the course.
 
 
 

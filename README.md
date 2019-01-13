@@ -10,6 +10,7 @@
 	
 	Instructor: Casey Dunn
 	Prepend the subject line of all course related emails with "genomics: "
+	Office hours: Thursdays 10AM-11:30AM
 
 
 The field of evolutionary biology is increasingly drawing on genomic data. The field of genomic biology is becoming more evolutionary as genomes are sequenced for a broader diversity of organisms. This course focuses on the evolution of genome sequence and function at macroevolutionary timescales, with an emphasis on building practical computational skills for genomic and phylogenetic comparative analyses. There will be more focus on using phylogenies to understand genome evolution than on using genomes to build phylogenies.
@@ -34,7 +35,7 @@ All materials for the course, including the syllabus, are available at the [cour
 
 ## Projects
 
-Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course. After the team and topic are set, the project will be developed and submitted as a git repository forked from https://github.com/Yale-EEB723/finalproject .
+Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course. After the team and topic are set, fork the repository at https://github.com/Yale-EEB723/finalproject to create a respository for your project. Submit the project as a pull request. Your forked repository can be private if it includes unpublished original data, but if private all course members should be granted access so they can view it and provode feedback.
 
 The final project can consider a research project already in progress (eg something that is part of thesis research), analysis of publicly available data, analysis of simulated data, development and testing of statistical methods or software, etc. Ideally each project will advance the existing research goals of each student, or advance an interesting topic identified in the course.
 
@@ -142,7 +143,16 @@ You can suggest references to add to this list via a pull request or the [issue 
 
 ### Reconstructing the history of genome evolution
 
-### Making associations between genomes and phenotypes withhh comparative methods
+Kim et al. 2017. Reconstruction and evolutionary history of eutherian chromosomes. PNAS. https://doi.org/10.1073/pnas.1702012114
+
+Demas et al. 2018. Reconstruction of avian ancestral karyotypes reveals differences in the evolutionary history of macro- and microchromosomes. BMC Genome Biology. https://doi.org/10.1186/s13059-018-1544-8
+
+O'Connor et al. 2018. Reconstruction of the diapsid ancestral genome permits chromosome evolution tracing in avian and non-avian dinosaurs. https://www.nature.com/articles/s41467-018-04267-9
+
+
+### Making associations between genomes and phenotypes with comparative methods
+
+
 
 ### Phylogenetic comparative methods
 

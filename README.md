@@ -41,7 +41,8 @@ We will focus on publicly available data, but if students have their own genome 
 
 ## Reading
 
-Reading includes manuscripts, book chapters, online resources, and videos to be watched ahead of class. The readings will be posted by the Monday before each class. The reading load is very uneven. On light weeks, it is good to get a jump on reading for future weeks.
+Reading includes manuscripts, book chapters, online resources, and videos to be watched ahead of class. The readings will be posted by the Monday before each class. In most weeks, the 15-20 minute discussion of the reading will be led by a group of students. All students will get a chance to participate in these groups. A bobliogrpay at the end of this document includes a variety of references that readings can be selected from.
+
 
 In addition to reading assigned for each class, the following will be used as references throughout the course:
 
@@ -54,9 +55,16 @@ In addition to reading assigned for each class, the following will be used as re
 
 ## Schedule
 
-### Week 1 - Intro to comparative genomics. Questions, methods, history
+### Week 1, January 17 - Intro to comparative genomics. Questions, methods, history
 
-Agenda and notes:
+#### Reading
+
+Discussion leader: Casey Dunn
+- Felsenstein, J. 1985. Phylogenies and the Comparative Method. American Naturalist, 125:1–15. https://www.jstor.org/stable/2461605
+- Dunn CW, Zapata F, Munro C, Siebert S, Hejnol A. 2018 Pairwise comparisons across species are problematic when analyzing functional genomic data. Proc. Natl. Acad. Sci., 115:E409–E417. https://www.doi.org/10.1073/pnas.1707515115
+
+
+#### Agenda and notes
 
 - Introductions
 - Discussion of course goals and structure
@@ -68,15 +76,29 @@ Agenda and notes:
 	- github account required, needed prior to week 3
 	- YCRC account setup description, needed prior to week 3
 
-Reading:
 
-- Felsenstein, J. 1985. Phylogenies and the Comparative Method. American Naturalist, 125:1–15. https://www.jstor.org/stable/2461605
-- Dunn CW, Zapata F, Munro C, Siebert S, Hejnol A. 2018 Pairwise comparisons across species are problematic when analyzing functional genomic data. Proc. Natl. Acad. Sci., 115:E409–E417. https://www.doi.org/10.1073/pnas.1707515115
+### Week 2, January 24 - Sequencing technology and applications
+
+#### Reading
+
+#### Agenda and notes
 
 
-### Week 2 - Sequencing technology and applications
+### Week 3, January 31 - Practical computing skills
 
-### Week 3 - Practical computing skills
+#### Reading
+
+*Practical Computing for Biologists* Chapters XX
+
+git chapter draft (to be provided as hard copy in previous week)
+
+
+#### Agenda and notes
+
+- Working on your laptop
+- Working on the cluster via your account
+- Getting started with git
+
 
 ### Week 4 - Genome assembly
 
@@ -97,3 +119,23 @@ Reading:
 ### Week 12 - Project
 
 ### Week 13 - Project
+
+
+## Bibliography
+
+You can suggest references to add to this list via a pull request or the [issue tracker](https://github.com/Yale-EEB723/syllabus/issues). The intent of this bibliograpy is to serve as a resource for class participants in their own work and as a list of potential readings for class.
+
+### Genome sequencing, assembly, and annotation
+
+### Functional genomics
+
+### Reconstructing the history of genome evolution
+
+### Making associations between genomes and phenotypes withhh comparative methods
+
+### Phylogenetic comparative methods
+
+### General computational skills and methhods
+
+
+## Links and other general resources

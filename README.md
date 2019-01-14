@@ -7,7 +7,7 @@
 
 	Time: Thursday 1-3
 	Location: ESC 100
-	
+
 	Instructor: Casey Dunn
 	Prepend the subject line of all course related emails with "genomics: "
 	Office hours: Thursdays 10AM-11:30AM
@@ -35,7 +35,7 @@ All materials for the course, including the syllabus, are available at the [cour
 
 ## Projects
 
-Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course. After the team and topic are set, fork the repository at https://github.com/Yale-EEB723/finalproject to create a respository for your project. Submit the project as a pull request. Your forked repository can be private if it includes unpublished original data, but if private all course members should be granted access so they can view it and provode feedback.
+Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course. After the team and topic are set, fork the repository at https://github.com/Yale-EEB723/finalproject to create a repository for your project. Submit the project as a pull request. Your forked repository can be private if it includes unpublished original data, but if private all course members should be granted access so they can view it and provide feedback.
 
 The final project can consider a research project already in progress (eg something that is part of thesis research), analysis of publicly available data, analysis of simulated data, development and testing of statistical methods or software, etc. Ideally each project will advance the existing research goals of each student, or advance an interesting topic identified in the course.
 
@@ -43,7 +43,7 @@ The final project can consider a research project already in progress (eg someth
 
 ## Reading
 
-Reading includes manuscripts, book chapters, online resources, and videos to be watched ahead of class. The readings will be posted by the Monday before each class. In most weeks, the 15-20 minute discussion of the reading will be led by a group of students. All students will get a chance to participate in these groups. A bobliogrpay at the end of this document includes a variety of references that readings can be selected from.
+Reading includes manuscripts, book chapters, online resources, and videos to be watched ahead of class. The readings will be posted by the Monday before each class. In most weeks, the 15-20 minute discussion of the reading will be led by a group of students. All students will get a chance to participate in these groups. A bibliogrpay at the end of this document includes a variety of references that readings can be selected from.
 
 
 In addition to reading assigned for each class, the following will be used as references throughout the course:
@@ -135,7 +135,7 @@ git chapter draft (to be provided as hard copy in previous week)
 
 ## Bibliography
 
-You can suggest references to add to this list via a pull request or the [issue tracker](https://github.com/Yale-EEB723/syllabus/issues). The intent of this bibliograpy is to serve as a resource for class participants in their own work and as a list of potential readings for class.
+You can suggest references to add to this list via a pull request or the [issue tracker](https://github.com/Yale-EEB723/syllabus/issues). The intent of this bibliography is to serve as a resource for class participants in their own work and as a list of potential readings for class.
 
 ### Genome sequencing, assembly, and annotation
 
@@ -156,7 +156,7 @@ O'Connor et al. 2018. Reconstruction of the diapsid ancestral genome permits chr
 
 ### Phylogenetic comparative methods
 
-### General computational skills and methhods
+### General computational skills and methods
 
 
 ## Links and other general resources

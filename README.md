@@ -102,9 +102,8 @@ First, confirm that docker is working by running a container:
 
     docker run -it rocker/rstudio /bin/bash
 
-Next, we will walk through regular expressions:
-
-    
+Next, we will walk through regular expressions in the exercises at
+https://github.com/Yale-EEB723/syllabus/blob/master/regular_expressions.txt .
 
 
 

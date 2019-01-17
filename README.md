@@ -53,6 +53,22 @@ In addition to reading assigned for each class, the following will be used as re
 - Whickham, H (2017). R for Data Science. http://r4ds.had.co.nz *This book is free online at the provided link. It is an excellent introduction to data analysis in R, and more broadly how to think about data structure and analysis. It presents a coherent introduction to the Tidyverse, a set of R packages for general data manipulation and analysis. Our R coding will follow conventions in this book.*
 
 
+## Setting up your computer
+
+In this course, you will perform some exercises and analyses on your own laptop
+in class, and some on the cluster. Below are instructions on how to set up
+your laptop.
+
+Setup an account at [GitHub](https://github.com) using your educational email address.
+
+Install [git](https://git-scm.com/downloads).
+
+Install the [Atom](https://atom.io) text editor.
+
+Install [Docker](https://www.docker.com/get-started).
+
+
+
 
 
 ## Schedule
@@ -75,8 +91,21 @@ Discussion leader: Casey Dunn
 	- Class formats
 - Course logistics
 	- Bring laptop to each class
-	- github account required, needed prior to week 3
+	- github account required
 	- YCRC account setup description, needed prior to week 3
+- Review readings
+- Overview of computational framework and tools
+
+#### Exercises
+
+First, confirm that docker is working by running a container:
+
+    docker run -it rocker/rstudio /bin/bash
+
+Next, we will walk through regular expressions:
+
+    
+
 
 
 ### Week 2, January 24 - Sequencing technology and applications
@@ -138,6 +167,8 @@ git chapter draft (to be provided as hard copy in previous week)
 You can suggest references to add to this list via a pull request or the [issue tracker](https://github.com/Yale-EEB723/syllabus/issues). The intent of this bibliography is to serve as a resource for class participants in their own work and as a list of potential readings for class.
 
 ### Genome sequencing, assembly, and annotation
+
+Alkan et al. 2011. Genome structural variation discovery and genotyping. Nature Reviews Genetics. https://www.nature.com/articles/nrg2958
 
 ### Functional genomics
 

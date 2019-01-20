@@ -106,10 +106,13 @@ Next, we will walk through regular expressions in the exercises at
 https://github.com/Yale-EEB723/syllabus/blob/master/regular_expressions.txt .
 
 
-
 ### Week 2, January 24 - Sequencing technology and applications
 
 #### Reading
+
+Discussion leader: Ian Gilman
+- Goodwin et al. 2016. Coming of age: ten years of next-generation sequencing
+technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
 
 #### Agenda and notes
 
@@ -121,7 +124,10 @@ https://github.com/Yale-EEB723/syllabus/blob/master/regular_expressions.txt .
 		- Repeats
 		- Heterozygosity
 
+#### Exercises
 
+We will walk through regular expressions in the exercises at
+https://github.com/Yale-EEB723/syllabus/blob/master/regular_expressions.txt .
 
 ### Week 3, January 31 - Practical computing skills
 
@@ -168,6 +174,18 @@ You can suggest references to add to this list via a pull request or the [issue 
 ### Genome sequencing, assembly, and annotation
 
 Alkan et al. 2011. Genome structural variation discovery and genotyping. Nature Reviews Genetics. https://www.nature.com/articles/nrg2958
+
+Goodwin et al. 2016. Coming of age: ten years of next-generation sequencing
+technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
+
+Heather et al. 2015. The sequence of sequencers: The history of sequencing DNA.
+Molecular Cell. https://doi.org/10.1016/j.molcel.2015.05.004
+
+Reuter et al. 2015. High-Throughput Sequencing Technologies. Molecular Cell.
+https://doi.org/10.1016/j.molcel.2015.05.004
+
+Shendure et al. 2017. DNA sequencing at 40: past, present and future. Nature.
+https://doi.org/10.1038/nature24286
 
 ### Functional genomics
 

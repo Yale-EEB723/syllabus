@@ -39,6 +39,27 @@ Each student will work on a project, either in collaboration or individually. Th
 
 The final project can consider a research project already in progress (eg something that is part of thesis research), analysis of publicly available data, analysis of simulated data, development and testing of statistical methods or software, etc. Ideally each project will advance the existing research goals of each student, or advance an interesting topic identified in the course.
 
+Here are some suggested final project ideas:
+
+- A deep dive on a specific technical challenge of de novo genome sequencing and assembly,
+eg repeats or heterozygosity
+
+- Assembly and annotation of an original or publicly available de novo genome
+
+- Examine the evolution of genome structure (eg synteny, size, intron distribution, etc)
+with phylogenetic methods
+
+- Explore the fit of models of evolution to genomic or functional genomic data
+
+- Test phylogenetic hypotheses with genomic data
+
+- Analyze one or more categories of functional genomic data in a phylogenetic context
+to test hypotheses about the evolution of genome function
+
+- Use comparative functional genomic and/or genomic data to identify genes that
+may relate to specific phenotypes
+
+- Compare within population genome variation to variation at broader phylogenetic scales
 
 
 ## Reading
@@ -66,9 +87,6 @@ Install [git](https://git-scm.com/downloads).
 Install the [Atom](https://atom.io) text editor.
 
 Install [Docker](https://www.docker.com/get-started).
-
-
-
 
 
 ## Schedule
@@ -117,6 +135,32 @@ technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
 #### Agenda and notes
 
 - Sequencing technology and instruments
+	- Conceptual overview
+		- Single molecule vs. populations of molecules
+		- Multiplexing
+		- Sequencing overview
+			- Sample preparation
+			- Data acquisition
+			- Data preprocessing
+			- Base calling
+			- Read processing (trimming, binning, etc) and export
+			- Downstream analysis (application specific)
+		- Tradeoffs
+			- Cost (initial and realtime)
+			- Read length
+			- Quality
+			- Throughput
+			- Hands-on limitations (sample prep cost, instrument portability, ease of use, run time, etc)
+	- Current sequencing technologies
+		- Illumina
+			- https://www.youtube.com/watch?v=fCd6B5HRaZ8
+		- PacBio
+			- https://www.youtube.com/watch?v=NHCJ8PtYCFc
+			- Very long molecules can be sequenced or the same molecule can be
+			sequenced repeatedly with  [Circular Consensus Sequencing](http://files.pacb.com/software/smrtanalysis/2.2.0/doc/smrtportal/help/!SSL!/Webhelp/Portal_PacBio_Glossary.htm)
+		- Oxford Nanopore
+			- https://www.youtube.com/watch?v=GUb1TZvMWsw
+			- https://www.youtube.com/watch?v=hs0FdiTHMbc
 
 - Genome sequencing
 	- Challenging factors
@@ -128,6 +172,13 @@ technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
 
 We will walk through regular expressions in the exercises at
 https://github.com/Yale-EEB723/syllabus/blob/master/regular_expressions.txt .
+
+#### Other
+
+- Hand out git chapter
+- Ask students to prepare to present preliminary ideas on final projects next
+week
+
 
 ### Week 3, January 31 - Practical computing skills
 

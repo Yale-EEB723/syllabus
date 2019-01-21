@@ -131,6 +131,8 @@ https://github.com/Yale-EEB723/syllabus/blob/master/regular_expressions.txt .
 Discussion leader: Ian Gilman
 - Goodwin et al. 2016. Coming of age: ten years of next-generation sequencing
 technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
+*This review covers a lot of ground. Focus on the bits about Illumina, PacBio,
+and Oxford Nanopore.*
 
 #### Agenda and notes
 
@@ -148,7 +150,7 @@ technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
 		- Tradeoffs
 			- Cost (initial and realtime)
 			- Read length
-			- Quality
+			- Error rate and error profile
 			- Throughput
 			- Hands-on limitations (sample prep cost, instrument portability, ease of use, run time, etc)
 	- Current sequencing technologies
@@ -167,6 +169,16 @@ technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
 		- Large size
 		- Repeats
 		- Heterozygosity
+		- Tissue limitation
+
+- Take homes
+	- Focus on inputs and outputs, not intermediates. For example, assembly quality
+	is usually much more important than read quality.
+	- Take a wholistic perspective on costs, including your time. Saving a bit of
+	money on sequencing can sometimes incur large data analysis costs, for example.
+	- Focus your time and resources on what differentiates your project from others.
+	- Always, always be thinking about the end goal and evaluate intermediate
+	decisions in terms of these final objectives.
 
 #### Exercises
 

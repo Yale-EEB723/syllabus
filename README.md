@@ -132,7 +132,10 @@ Discussion leader: Ian Gilman
 - Goodwin et al. 2016. Coming of age: ten years of next-generation sequencing
 technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
 *This review covers a lot of ground. Focus on the bits about Illumina, PacBio,
-and Oxford Nanopore.*
+and Oxford Nanopore Technologies (ONT).*
+
+- Practical Computing for Biologists Chapters 2-3. *This optional reading
+provides background for, and builds on, the regular expressions exercises.*
 
 #### Agenda and notes
 
@@ -150,12 +153,13 @@ and Oxford Nanopore.*
 		- Tradeoffs
 			- Cost (initial and realtime)
 			- Read length
-			- Error rate and error profile
+			- Error rate and error profile (base miscalls, phasing noise, homopolymer length, etc)
 			- Throughput
 			- Hands-on limitations (sample prep cost, instrument portability, ease of use, run time, etc)
 	- Current sequencing technologies
 		- Illumina
 			- https://www.youtube.com/watch?v=fCd6B5HRaZ8
+			- The recent shift to [reduced  colors](https://www.illumina.com/science/technology/next-generation-sequencing/sequencing-technology/2-channel-sbs.html)
 		- PacBio
 			- https://www.youtube.com/watch?v=NHCJ8PtYCFc
 			- Very long molecules can be sequenced or the same molecule can be
@@ -196,9 +200,11 @@ week
 
 #### Reading
 
-*Practical Computing for Biologists* Chapters XX
+-  Practical Computing for Biologists Chapters git chapter draft
+(to be provided as hard copy in previous week)
 
-git chapter draft (to be provided as hard copy in previous week)
+-  Practical Computing for Biologists Chapters chapters 4-6, 20  *This optional
+reading provides background on working in bash and remote access to computers.*
 
 
 #### Agenda and notes
@@ -234,9 +240,7 @@ git chapter draft (to be provided as hard copy in previous week)
 
 You can suggest references to add to this list via a pull request or the [issue tracker](https://github.com/Yale-EEB723/syllabus/issues). The intent of this bibliography is to serve as a resource for class participants in their own work and as a list of potential readings for class.
 
-### Genome sequencing, assembly, and annotation
-
-Alkan et al. 2011. Genome structural variation discovery and genotyping. Nature Reviews Genetics. https://www.nature.com/articles/nrg2958
+### Genome sequencing
 
 Goodwin et al. 2016. Coming of age: ten years of next-generation sequencing
 technologies. Nature Reviews Genetics.  https://doi.org/10.1038/nrg.2016.49
@@ -249,6 +253,28 @@ https://doi.org/10.1016/j.molcel.2015.05.004
 
 Shendure et al. 2017. DNA sequencing at 40: past, present and future. Nature.
 https://doi.org/10.1038/nature24286
+
+### Genome assembly
+
+Alkan et al. 2011. Genome structural variation discovery and genotyping. Nature Reviews Genetics. https://www.nature.com/articles/nrg2958
+
+Bradnam et al. 2013. Assemblathon 2: evaluating de novo methods of genome
+assembly in three vertebrate species. GigaScience.
+https://doi.org/10.1186/2047-217X-2-10
+
+Paajanen et al. 2019. A critical comparison of technologies for a plant genome
+sequencing project. GigaScience. https://doi.org/10.1093/gigascience/giy163
+
+Schatz et al. 2010. Assembly of large genomes using second-generation sequencing.
+Genome Research. https://doi.org/10.1101/gr.101360.109
+
+Sedlazeck et al. 2018. Piercing the dark matter: bioinformatics of long-range
+sequencing and mapping. Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0003-4
+
+Sohn and Nam 2016. The present and future of de novo whole-genome assembly.
+Briefings in Bioinformatics. https://doi.org/10.1093/bib/bbw096
+
+### Genome annotation
 
 ### Functional genomics
 

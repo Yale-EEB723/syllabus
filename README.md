@@ -189,6 +189,11 @@ provides background for, and builds on, the regular expressions exercises.*
 We will walk through regular expressions in the exercises at
 https://github.com/Yale-EEB723/syllabus/blob/master/regular_expressions.txt .
 
+To get the files for the exercises, make a local clone of the syllabus repository:
+
+    git clone https://github.com/Yale-EEB723/syllabus.git
+
+
 #### Other
 
 - Hand out git chapter
@@ -253,6 +258,9 @@ https://doi.org/10.1016/j.molcel.2015.05.004
 
 Shendure et al. 2017. DNA sequencing at 40: past, present and future. Nature.
 https://doi.org/10.1038/nature24286
+
+Vurture et al. 2017. GenomeScope: fast reference-free genome profiling from
+short reads. Bioinformatics. https://doi.org/10.1093/bioinformatics/btx153
 
 ### Genome assembly
 

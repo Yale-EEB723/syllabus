@@ -282,7 +282,33 @@ sequencing and mapping. Nature Reviews Genetics. https://doi.org/10.1038/s41576-
 Sohn and Nam 2016. The present and future of de novo whole-genome assembly.
 Briefings in Bioinformatics. https://doi.org/10.1093/bib/bbw096
 
+### Example genome projects
+
+Edgar et al. 2018. Single-molecule sequencing and optical mapping yields an
+improved genome of woodland strawberry (Fragaria vesca) with chromosome-scale
+contiguity. Gigascience. https://doi.org/10.1093/gigascience/gix124
+
+Jain et al. Nanopore sequencing and assembly of a human genome with ultra-long
+reads. Nature Biotech. https://doi.org/10.1038/nbt.4060
+
+Wenger et al. 2018. Highly-accurate long-read sequencing improves variant
+detection and assembly of a human genome. https://www.biorxiv.org/content/10.1101/519025v2
+
+Jiang et al. 2018. A Hybrid de novo Assembly of the Sea Pansy (Renilla muelleri)
+Genome. https://doi.org/10.1101/424614
+
+Vertebrate Genomes Project - https://vgp.github.io/genomeark/
+
+
+
+
 ### Genome annotation
+
+### Genome structure
+
+Li et al. 2011. Chromosome Size in Diploid Eukaryotic Species Centers on the
+Average Length with a Conserved Boundary. Molecular Biology and Evolution.
+https://doi.org/10.1093/molbev/msr011
 
 ### Functional genomics
 

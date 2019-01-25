@@ -291,6 +291,10 @@ contiguity. Gigascience. https://doi.org/10.1093/gigascience/gix124
 Jain et al. Nanopore sequencing and assembly of a human genome with ultra-long
 reads. Nature Biotech. https://doi.org/10.1038/nbt.4060
 
+Mohr et al. 2017. Improved de novo Genome Assembly: Linked-Read Sequencing
+Combined with Optical Mapping Produce a High Quality Mammalian Genome at
+Relatively Low Cost. BioRxiv. https://doi.org/10.1101/128348
+
 Wenger et al. 2018. Highly-accurate long-read sequencing improves variant
 detection and assembly of a human genome. https://www.biorxiv.org/content/10.1101/519025v2
 

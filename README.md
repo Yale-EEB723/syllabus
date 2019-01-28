@@ -205,6 +205,10 @@ week
 
 #### Reading
 
+- Jain et al. Nanopore sequencing and assembly of a human genome with ultra-long
+reads. Nature Biotech. https://doi.org/10.1038/nbt.4060. (Discussion leaders:
+Edgar Benavides and Vincent Dimassa)
+
 -  Practical Computing for Biologists Chapters git chapter draft
 (to be provided as hard copy in previous week)
 

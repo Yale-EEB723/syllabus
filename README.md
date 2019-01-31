@@ -23,7 +23,7 @@ This course is organized with [github education tools](https://education.github.
 
 ### HPC
 
-The class will be given student cluster accounts on one of the Yale High Performance Compute (HPC) clusters. Access to both compute and storage resources will last the course of the semester, after which data need to be copied elsewhere if they are important enough to be saved.
+The class will be given student cluster accounts on one of the Yale High Performance Compute (HPC) clusters. Access to both compute and storage resources will last the course of the semester, after which data need to be copied elsewhere if they are important enough to be saved. 
 
 ## Course format
 
@@ -223,6 +223,8 @@ reading provides background on working in bash and remote access to computers.*
 - Working on your laptop
 - Working on the cluster via your account
 - Getting started with git
+
+[Ben's cluster presentation](https://docs.google.com/presentation/d/1uA7LKhTbDO8YHD4u3b0DtOQRG90dpOlsauij9Bo_jvs/edit?usp=sharing)
 
 ### Week 4 - Genome assembly
 

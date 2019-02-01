@@ -23,7 +23,7 @@ This course is organized with [github education tools](https://education.github.
 
 ### HPC
 
-The class will be given student cluster accounts on one of the Yale High Performance Compute (HPC) clusters. Access to both compute and storage resources will last the course of the semester, after which data need to be copied elsewhere if they are important enough to be saved. 
+The class will be given student cluster accounts on one of the Yale High Performance Compute (HPC) clusters. Access to both compute and storage resources will last the course of the semester, after which data need to be copied elsewhere if they are important enough to be saved.
 
 ## Course format
 
@@ -295,7 +295,8 @@ improved genome of woodland strawberry (Fragaria vesca) with chromosome-scale
 contiguity. Gigascience. https://doi.org/10.1093/gigascience/gix124
 
 Jain et al. Nanopore sequencing and assembly of a human genome with ultra-long
-reads. Nature Biotech. https://doi.org/10.1038/nbt.4060
+reads. Nature Biotech. https://doi.org/10.1038/nbt.4060 . (For an interesting
+set of followup analyses see https://genomeinformatics.github.io/na12878update/ )
 
 Mohr et al. 2017. Improved de novo Genome Assembly: Linked-Read Sequencing
 Combined with Optical Mapping Produce a High Quality Mammalian Genome at

@@ -228,6 +228,11 @@ reading provides background on working in bash and remote access to computers.*
 
 ### Week 4 - Genome assembly
 
+#### Reading
+
+- Sedlazeck et al. 2018. Piercing the dark matter: bioinformatics of long-range sequencing and mapping. Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0003-4 (Discussion leader: Ava Ghezlayagh )
+
+
 ### Week 5 - Genome annotations
 
 ### Week 6 - Genome annotations

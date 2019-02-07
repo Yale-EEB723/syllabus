@@ -268,9 +268,7 @@ mapping new reads to an existing reference genome sequence. Does not require as 
 depth as de novo assembly, also much easier computationally.
 
 
-Core concepts
-
-The challenge
+The challenge:
 - Find similar sequences
 - Categorize differences between similar sequences according to whether they are
 	- Sample prep errors
@@ -305,40 +303,57 @@ The general assembly process (see Figure 1 from https://doi.org/10.1038/s41576-0
 		- HiC
 		- Optical mapping
 
+Error correcting can occur at multiple steps
+- Improvements to base calling
+- Use short high quality reads to correct lower quality long reads
+	- Risks introducing errors, eg by mistaking one instance of a repeat for another similar instance of the same repeat
+- Use short high quality reads to correct contigs derived from lower quality long reads
+	- Same risks as above
+- Use lower quality long reads to correct each other (requires greater depth)
+	- In the last year this is where things have started to head
+
 Characterizing an assembly
 - contiguity (eg N50)
 - completeness (eg BUSCO)
 - correctness (eg base level, structural, phasing)
 
-- Genome sequencing (and assembly) challenging factors
+Genome assembly challenging factors
 	- Large size
 	- Repeats
 	- Heterozygosity
-	- Tissue limitation
+	- There are tools for assessing all of these before attempting a full assembly, eg https://github.com/schatzlab/genomescope
 
 
-- Core algorithmic concepts
-	- Similarity and extension
-		- Identify similarity be identification of similar seed sequences in different reads
-			- Expensive because each read needs to be compared to every other read
-			- Exact matches are really fast, but often need to allow for variation due to errors
-		- Extension searches for regions of similarity beyond the seed.
-			- It essentially sees if if is possible to zip the reads together starting at the seed
-			- Extension is generally not as expensive is initial identification of similarity, because extension is
-	- k-mers
-		- Short sequences of length k (often 15-70 nucleotides)
-		- Very cheap to work with
-			- Defined memory footprint
-			- If short relative to frequency of errors, can focus on exact matches
-			- Easy to code
-		- Hash tables are sorted lists of k-mer sequences, often with a count of how many times the sequence exists
-		- de Bruijn assembly
-		- identification of similarity seeds
-	- Burrows-Wheeler transform
-		- Transforms the sequence to a sorted string that is easy to compress
-		- Can work with compressed strings, which is more computationally efficient
-		- Has the very special property that the original string can be recovered from
-		the sorted form
+Phasing
+	- Collapse haplotypes into a single consensus. Can introduce many errors and fragment the assembly
+	- Assemble into regions that are collapsed and unzipped
+		- Can arbitrarily resolve into primary assembly and alternate haplotigs, or pseudophased diploid genome
+		- Phase into two haploid genomes
+
+
+
+Core algorithmic concepts
+- Similarity and extension
+	- Identify similarity be identification of similar seed sequences in different reads
+		- Expensive because each read needs to be compared to every other read
+		- Exact matches are really fast, but often need to allow for variation due to errors
+	- Extension searches for regions of similarity beyond the seed.
+		- It essentially sees if if is possible to zip the reads together starting at the seed
+		- Extension is generally not as expensive is initial identification of similarity, because extension is
+- k-mers
+	- Short sequences of length k (often 15-70 nucleotides)
+	- Very cheap to work with
+		- Defined memory footprint
+		- If short relative to frequency of errors, can focus on exact matches
+		- Easy to code
+	- Hash tables are sorted lists of k-mer sequences, often with a count of how many times the sequence exists
+	- de Bruijn assembly
+	- identification of similarity seeds
+- Burrows-Wheeler transform
+	- Transforms the sequence to a sorted string that is easy to compress
+	- Can work with compressed strings, which is more computationally efficient
+	- Has the very special property that the original string can be recovered from
+	the sorted form
 
 
 

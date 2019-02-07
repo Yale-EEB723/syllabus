@@ -233,6 +233,115 @@ reading provides background on working in bash and remote access to computers.*
 - Sedlazeck et al. 2018. Piercing the dark matter: bioinformatics of long-range sequencing and mapping. Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0003-4 (Discussion leader: Ava Ghezlayagh )
 
 
+#### Agenda and notes
+
+The agenda:
+- Review paper
+- Discuss final projects
+- Walk through alignment exercise
+- Discuss items below about assembly
+
+
+We often want  to know the full sequence of a genome, but data are fragmented and redundant because:
+- DNA isolation leads to fragmentation by mechanical and chemical processes
+- Sample preparation leads to fragmentation by mechanical and chemical processes, often deliberately to adjust the length of input molecules
+- Sequencing often doesn’t span the full length of a molecule, due to technical limitations, damaged template, damaged sequencing
+- The same regions of the genome are sequenced multiple times because:
+	- It is far easier to randomly sequence regions of the genome than to systematically tile sequencing effort across the genomes. To sequence with enough depth to ensure coverage everywhere, some places will have quite deep coverage
+	- Sequencing is error prone. Sequencing each spot multiple times enables error detection and correction.
+
+In the broad sense,
+- Sequencing takes large biological molecules in and generates character strings in computer memory that are redundant overlapping estimates (reads) of subsequence of of the original molecules. Underlying this is a generative model, ie an idea of how molecular structure impacts observed read sequences.
+- Assembly is in some respects the reverse process - it starts with reads and generates an estimate of the sequences of the
+input biological molecules. It runs the generative model in reverse, and generates descriptions of molecules in computer memory
+rather than
+
+
+Common tasks:
+- de novo assembly: going from reads (and sometimes additional new structural
+	data) to a genome assembly without reference to an existing assembly.
+- mapping: Tiling reads onto an existing reference genome sequence. Used to assess
+how the reads cover the reference sequence (more on this later when we discuss functional genomics),
+or to identify how the genome from which the reads are derived differs from the reference genome.
+- reference based assembly: assembling a genome by reference to an existing genome, usually by
+mapping new reads to an existing reference genome sequence. Does not require as much sequencing
+depth as de novo assembly, also much easier computationally.
+
+
+Core concepts
+
+The challenge
+- Find similar sequences
+- Categorize differences between similar sequences according to whether they are
+	- Sample prep errors
+	- Sequencing errors
+	- Different regions of the genome (eg paralogy, repeats)
+	- Different alleles
+	- Mixtures (eg somatic variations)
+- Estimate the sequence of the original molecules
+
+
+The general assembly process (see Figure 1 from https://doi.org/10.1038/s41576-018-0003-4)
+- Identify overlaps between reads
+- Construct a string graph
+	- Nodes are unambiguous sequences
+	- Edges are possible connections between those sequences
+	- Each path through the string graph is a possible assembly
+- Contig construction
+	- modify and traverse the string graph to derive contig sequences
+		- Errors create bubbles with low coverage that can be popped
+		- Some nodes cannot be combined with neighboring nodes because there isn't
+		enough information to know which alternative path to take, and those nodes
+		are emitted as contigs
+		- Adjacent nodes (ie nodes connected directly by edges) can often be combined
+	- Ends of contigs usually due to ambiguity of some sort, there are multiple
+	paths and the assembler doesn't know which to take so it chops them all off
+		- Sources of ambiguity include error, repeats not spanned by reads, or heterozygosity
+		- As read quality and length improve, extent of contigs determined in larger part by heterozygosity
+			- Makes heterozygous-aware assembly even more important
+- Scaffolding
+	- Physical ordering of contigs, sometimes introducing gaps
+	- Usually based on additional structural information
+		- HiC
+		- Optical mapping
+
+Characterizing an assembly
+- contiguity (eg N50)
+- completeness (eg BUSCO)
+- correctness (eg base level, structural, phasing)
+
+- Genome sequencing (and assembly) challenging factors
+	- Large size
+	- Repeats
+	- Heterozygosity
+	- Tissue limitation
+
+
+- Core algorithmic concepts
+	- Similarity and extension
+		- Identify similarity be identification of similar seed sequences in different reads
+			- Expensive because each read needs to be compared to every other read
+			- Exact matches are really fast, but often need to allow for variation due to errors
+		- Extension searches for regions of similarity beyond the seed.
+			- It essentially sees if if is possible to zip the reads together starting at the seed
+			- Extension is generally not as expensive is initial identification of similarity, because extension is
+	- k-mers
+		- Short sequences of length k (often 15-70 nucleotides)
+		- Very cheap to work with
+			- Defined memory footprint
+			- If short relative to frequency of errors, can focus on exact matches
+			- Easy to code
+		- Hash tables are sorted lists of k-mer sequences, often with a count of how many times the sequence exists
+		- de Bruijn assembly
+		- identification of similarity seeds
+	- Burrows-Wheeler transform
+		- Transforms the sequence to a sorted string that is easy to compress
+		- Can work with compressed strings, which is more computationally efficient
+		- Has the very special property that the original string can be recovered from
+		the sorted form
+
+
+
 ### Week 5 - Genome annotations
 
 ### Week 6 - Genome annotations

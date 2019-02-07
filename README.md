@@ -337,6 +337,9 @@ Core algorithmic concepts
 	- Identify similarity be identification of similar seed sequences in different reads
 		- Expensive because each read needs to be compared to every other read
 		- Exact matches are really fast, but often need to allow for variation due to errors
+		- A few methods
+			- Canu uses MHAP, a kmer method
+			- Falcon etc use DALIGNER, dynamic programming and kmers
 	- Extension searches for regions of similarity beyond the seed.
 		- It essentially sees if if is possible to zip the reads together starting at the seed
 		- Extension is generally not as expensive is initial identification of similarity, because extension is

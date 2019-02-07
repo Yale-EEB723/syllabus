@@ -42,7 +42,7 @@ Connect to Farnam (either with mobaxterm on Windows or ssh command on linux/macO
 srun -A eeb723 --pty -p interactive -c 2 bash
 
 # if you prefer a different directory use that instead
-mkdir -p /gpfs/project/eeb723/${USER}/eeb723-seqaln
+mkdir -p /gpfs/ysm/project/eeb723/${USER}/eeb723-seqaln
 singularity shell --shell /bin/bash -B /gpfs/project/eeb723/${USER}/eeb723-seqaln:/project/eeb723-seqaln docker://eeb723/course_docker
 ```
  

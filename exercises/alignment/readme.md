@@ -35,7 +35,7 @@ docker run --rm -ti -v ~/Desktop/eeb723-seqaln:/project/eeb723-seqaln eeb723/cou
 
 ## Singularity on Farnam
 
-- Connect to Farnam (either with mobaxterm on Windows or ssh command on linux/macOS)
+Connect to Farnam (either with mobaxterm on Windows or ssh command on linux/macOS)
 
 ``` bash
 # interactive session with 2 cores and default 10GiB of RAM

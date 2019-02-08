@@ -1,7 +1,7 @@
 
 # Running the exercise
 
-The script in this directory (`alignment.sh`) should run on its own as long as you create a directory for it called `/project/eeb723-seqaln`. However, we recommend that you open it in a separate window then copy and paste commands into an interactive shell one by one. Below are instructions for creating a shell with Docker on your computer or Singularity on the Farnam cluster.
+The script in this directory (`alignment.sh`) should run on its own as long as you create a directory for it called `/data/eeb723-seqaln`. However, we recommend that you open it in a separate window then copy and paste commands into an interactive shell one by one. Below are instructions for creating a shell with Docker on your computer or Singularity on the Farnam cluster.
 
 ## Docker
 
@@ -19,7 +19,7 @@ md %USERPROFILE%\Desktop\eeb723-seqaln
 Next, start up the class environment in Docker:
 
 ```
-docker run --rm -ti -v %USERPROFILE%\Desktop\eeb723-seqaln:/project/eeb723-seqaln eeb723/course_docker bash
+docker run --rm -ti -v %USERPROFILE%\Desktop\eeb723-seqaln:/data/eeb723-seqaln eeb723/course_docker bash
 ```
 
 
@@ -29,7 +29,7 @@ Open a new Terminal window (on a mac start up Terminal.app), then enter the foll
 
 ``` bash
 mkdir -p ~/Desktop/eeb723-seqaln
-docker run --rm -ti -v ~/Desktop/eeb723-seqaln:/project/eeb723-seqaln eeb723/course_docker bash
+docker run --rm -ti -v ~/Desktop/eeb723-seqaln:/data/eeb723-seqaln eeb723/course_docker bash
 ```
 
 
@@ -43,6 +43,6 @@ srun -A eeb723 --pty -p interactive -c 2 bash
 
 # if you prefer a different directory use that instead
 mkdir -p /gpfs/ysm/project/eeb723/${USER}/eeb723-seqaln
-singularity shell --shell /bin/bash -B /gpfs/project/eeb723/${USER}/eeb723-seqaln:/project/eeb723-seqaln docker://eeb723/course_docker
+singularity shell --shell /bin/bash -B /gpfs/ysm/project/eeb723/${USER}/eeb723-seqaln:/data/eeb723-seqaln docker://eeb723/course_docker
 ```
  

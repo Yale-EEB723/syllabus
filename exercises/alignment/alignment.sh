@@ -1,5 +1,5 @@
 # create a project directory, fill in below
-export PROJ_DIR=/project/eeb723-seqaln
+export PROJ_DIR=/data/eeb723-seqaln
 
 # I chose Thermus thermophilus, because it's cool and has a nice sized genome
 

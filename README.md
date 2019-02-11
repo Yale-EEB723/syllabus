@@ -359,18 +359,25 @@ Core algorithmic concepts
 	the sorted form
 
 
-
 ### Week 5 - Genome annotations
+
+#### Reading
+
+Yandell and Ence. 2012. A beginner's guide to eukaryotic genome annotation.
+Nature Review Genetics. https://doi.org/10.1038/nrg3174 (Discussion leader: Diego and Jasmine)
+
+
+
 
 ### Week 6 - Genome annotations
 
-### Week 7 - Phylogenetic methods
+### Week 7 - Functional genomics
 
-### Week 8 - Phylogenetic comparative methods
+### Week 8 - Phylogenetic methods
 
-### Week 9 - Genome evolution
+### Week 9 - Phylogenetic comparative methods
 
-### Week 10 - Functional genomics
+### Week 10 - Genome evolution
 
 ### Week 11 - Comparative functional genomics
 
@@ -407,6 +414,9 @@ Alkan et al. 2011. Genome structural variation discovery and genotyping. Nature 
 Bradnam et al. 2013. Assemblathon 2: evaluating de novo methods of genome
 assembly in three vertebrate species. GigaScience.
 https://doi.org/10.1186/2047-217X-2-10
+
+Koren et al. 2018 De novo assembly of haplotype-resolved genomes with trio binning.
+Nature Biotechnology. https://doi.org/10.1038/nbt.4277 *Good overview of phasing*
 
 Paajanen et al. 2019. A critical comparison of technologies for a plant genome
 sequencing project. GigaScience. https://doi.org/10.1093/gigascience/giy163
@@ -446,6 +456,15 @@ Vertebrate Genomes Project - https://vgp.github.io/genomeark/
 
 
 ### Genome annotation
+
+Aken et al. 2016. The Ensembl gene annotation system. Database. https://doi.org/10.1093/database/baw093
+
+Mudge and Harrow. 2016 The state of play in higher eukaryote gene annotation. https://doi.org/10.1038/nrg.2016.119
+
+Yandell and Ence. 2012. A beginner's guide to eukaryotic genome annotation.
+Nature Review Genetics. https://doi.org/10.1038/nrg3174
+
+
 
 ### Genome structure
 

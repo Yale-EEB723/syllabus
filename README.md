@@ -104,13 +104,13 @@ Discussion leader: Casey Dunn
 
 - Introductions
 - Discussion of course goals and structure
-	- Readings
-	- Projects
-	- Class formats
+  - Readings
+  - Projects
+  - Class formats
 - Course logistics
-	- Bring laptop to each class
-	- github account required
-	- YCRC account setup description, needed prior to week 3
+  - Bring laptop to each class
+  - github account required
+  - YCRC account setup description, needed prior to week 3
 - Review readings
 - Overview of computational framework and tools
 
@@ -140,49 +140,49 @@ provides background for, and builds on, the regular expressions exercises.*
 #### Agenda and notes
 
 - Sequencing technology and instruments
-	- Conceptual overview
-		- Single molecule vs. populations of molecules
-		- Multiplexing
-		- Sequencing overview
-			- Sample preparation
-			- Data acquisition
-			- Data preprocessing
-			- Base calling
-			- Read processing (trimming, binning, etc) and export
-			- Downstream analysis (application specific)
-		- Tradeoffs
-			- Cost (initial and realtime)
-			- Read length
-			- Error rate and error profile (base miscalls, phasing noise, homopolymer length, etc)
-			- Throughput
-			- Hands-on limitations (sample prep cost, instrument portability, ease of use, run time, etc)
-	- Current sequencing technologies
-		- Illumina
-			- https://www.youtube.com/watch?v=fCd6B5HRaZ8
-			- The recent shift to [reduced  colors](https://www.illumina.com/science/technology/next-generation-sequencing/sequencing-technology/2-channel-sbs.html)
-		- PacBio
-			- https://www.youtube.com/watch?v=NHCJ8PtYCFc
-			- Very long molecules can be sequenced or the same molecule can be
-			sequenced repeatedly with  [Circular Consensus Sequencing](http://files.pacb.com/software/smrtanalysis/2.2.0/doc/smrtportal/help/!SSL!/Webhelp/Portal_PacBio_Glossary.htm)
-		- Oxford Nanopore
-			- https://www.youtube.com/watch?v=GUb1TZvMWsw
-			- https://www.youtube.com/watch?v=hs0FdiTHMbc
+  - Conceptual overview
+    - Single molecule vs. populations of molecules
+    - Multiplexing
+    - Sequencing overview
+      - Sample preparation
+      - Data acquisition
+      - Data preprocessing
+      - Base calling
+      - Read processing (trimming, binning, etc) and export
+      - Downstream analysis (application specific)
+    - Tradeoffs
+      - Cost (initial and realtime)
+      - Read length
+      - Error rate and error profile (base miscalls, phasing noise, homopolymer length, etc)
+      - Throughput
+      - Hands-on limitations (sample prep cost, instrument portability, ease of use, run time, etc)
+  - Current sequencing technologies
+    - Illumina
+      - https://www.youtube.com/watch?v=fCd6B5HRaZ8
+      - The recent shift to [reduced  colors](https://www.illumina.com/science/technology/next-generation-sequencing/sequencing-technology/2-channel-sbs.html)
+    - PacBio
+      - https://www.youtube.com/watch?v=NHCJ8PtYCFc
+      - Very long molecules can be sequenced or the same molecule can be
+      sequenced repeatedly with  [Circular Consensus Sequencing](http://files.pacb.com/software/smrtanalysis/2.2.0/doc/smrtportal/help/!SSL!/Webhelp/Portal_PacBio_Glossary.htm)
+    - Oxford Nanopore
+      - https://www.youtube.com/watch?v=GUb1TZvMWsw
+      - https://www.youtube.com/watch?v=hs0FdiTHMbc
 
 - Genome sequencing
-	- Challenging factors
-		- Large size
-		- Repeats
-		- Heterozygosity
-		- Tissue limitation
+  - Challenging factors
+    - Large size
+    - Repeats
+    - Heterozygosity
+    - Tissue limitation
 
 - Take homes
-	- Focus on inputs and outputs, not intermediates. For example, assembly quality
-	is usually much more important than read quality.
-	- Take a wholistic perspective on costs, including your time. Saving a bit of
-	money on sequencing can sometimes incur large data analysis costs, for example.
-	- Focus your time and resources on what differentiates your project from others.
-	- Always, always be thinking about the end goal and evaluate intermediate
-	decisions in terms of these final objectives.
+  - Focus on inputs and outputs, not intermediates. For example, assembly quality
+  is usually much more important than read quality.
+  - Take a wholistic perspective on costs, including your time. Saving a bit of
+  money on sequencing can sometimes incur large data analysis costs, for example.
+  - Focus your time and resources on what differentiates your project from others.
+  - Always, always be thinking about the end goal and evaluate intermediate
+  decisions in terms of these final objectives.
 
 #### Exercises
 
@@ -233,7 +233,7 @@ reading provides background on working in bash and remote access to computers.*
 - Sedlazeck et al. 2018. Piercing the dark matter: bioinformatics of long-range sequencing and mapping. Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0003-4 (Discussion leader: Ava Ghezlayagh )
 
 
-#### Agenda and notes
+#### Agenda
 
 The agenda:
 - Review paper
@@ -241,14 +241,15 @@ The agenda:
 - Walk through alignment exercise
 - Discuss items below about assembly
 
+#### Notes
 
 We often want  to know the full sequence of a genome, but data are fragmented and redundant because:
 - DNA isolation leads to fragmentation by mechanical and chemical processes
 - Sample preparation leads to fragmentation by mechanical and chemical processes, often deliberately to adjust the length of input molecules
 - Sequencing often doesn’t span the full length of a molecule, due to technical limitations, damaged template, damaged sequencing
 - The same regions of the genome are sequenced multiple times because:
-	- It is far easier to randomly sequence regions of the genome than to systematically tile sequencing effort across the genomes. To sequence with enough depth to ensure coverage everywhere, some places will have quite deep coverage
-	- Sequencing is error prone. Sequencing each spot multiple times enables error detection and correction.
+  - It is far easier to randomly sequence regions of the genome than to systematically tile sequencing effort across the genomes. To sequence with enough depth to ensure coverage everywhere, some places will have quite deep coverage
+  - Sequencing is error prone. Sequencing each spot multiple times enables error detection and correction.
 
 In the broad sense,
 - Sequencing takes large biological molecules in and generates character strings in computer memory that are redundant overlapping estimates (reads) of subsequence of of the original molecules. Underlying this is a generative model, ie an idea of how molecular structure impacts observed read sequences.
@@ -259,7 +260,7 @@ rather than
 
 Common tasks:
 - de novo assembly: going from reads (and sometimes additional new structural
-	data) to a genome assembly without reference to an existing assembly.
+  data) to a genome assembly without reference to an existing assembly.
 - mapping: Tiling reads onto an existing reference genome sequence. Used to assess
 how the reads cover the reference sequence (more on this later when we discuss functional genomics),
 or to identify how the genome from which the reads are derived differs from the reference genome.
@@ -271,46 +272,46 @@ depth as de novo assembly, also much easier computationally.
 The challenge:
 - Find similar sequences
 - Categorize differences between similar sequences according to whether they are
-	- Sample prep errors
-	- Sequencing errors
-	- Different regions of the genome (eg paralogy, repeats)
-	- Different alleles
-	- Mixtures (eg somatic variations)
+  - Sample prep errors
+  - Sequencing errors
+  - Different regions of the genome (eg paralogy, repeats)
+  - Different alleles
+  - Mixtures (eg somatic variations)
 - Estimate the sequence of the original molecules
 
 
 The general assembly process (see Figure 1 from https://doi.org/10.1038/s41576-018-0003-4)
 - Identify overlaps between reads
 - Construct a string graph
-	- Nodes are unambiguous sequences
-	- Edges are possible connections between those sequences
-	- Each path through the string graph is a possible assembly
+  - Nodes are unambiguous sequences
+  - Edges are possible connections between those sequences
+  - Each path through the string graph is a possible assembly
 - Contig construction
-	- modify and traverse the string graph to derive contig sequences
-		- Errors create bubbles with low coverage that can be popped
-		- Some nodes cannot be combined with neighboring nodes because there isn't
-		enough information to know which alternative path to take, and those nodes
-		are emitted as contigs
-		- Adjacent nodes (ie nodes connected directly by edges) can often be combined
-	- Ends of contigs usually due to ambiguity of some sort, there are multiple
-	paths and the assembler doesn't know which to take so it chops them all off
-		- Sources of ambiguity include error, repeats not spanned by reads, or heterozygosity
-		- As read quality and length improve, extent of contigs determined in larger part by heterozygosity
-			- Makes heterozygous-aware assembly even more important
+  - modify and traverse the string graph to derive contig sequences
+    - Errors create bubbles with low coverage that can be popped
+    - Some nodes cannot be combined with neighboring nodes because there isn't
+    enough information to know which alternative path to take, and those nodes
+    are emitted as contigs
+    - Adjacent nodes (ie nodes connected directly by edges) can often be combined
+  - Ends of contigs usually due to ambiguity of some sort, there are multiple
+  paths and the assembler doesn't know which to take so it chops them all off
+    - Sources of ambiguity include error, repeats not spanned by reads, or heterozygosity
+    - As read quality and length improve, extent of contigs determined in larger part by heterozygosity
+      - Makes heterozygous-aware assembly even more important
 - Scaffolding
-	- Physical ordering of contigs, sometimes introducing gaps
-	- Usually based on additional structural information
-		- HiC
-		- Optical mapping
+  - Physical ordering of contigs, sometimes introducing gaps
+  - Usually based on additional structural information
+    - HiC
+    - Optical mapping
 
 Error correcting can occur at multiple steps
 - Improvements to base calling
 - Use short high quality reads to correct lower quality long reads
-	- Risks introducing errors, eg by mistaking one instance of a repeat for another similar instance of the same repeat
+  - Risks introducing errors, eg by mistaking one instance of a repeat for another similar instance of the same repeat
 - Use short high quality reads to correct contigs derived from lower quality long reads
-	- Same risks as above
+  - Same risks as above
 - Use lower quality long reads to correct each other (requires greater depth)
-	- In the last year this is where things have started to head
+  - In the last year this is where things have started to head
 
 Characterizing an assembly
 - contiguity (eg N50)
@@ -318,45 +319,45 @@ Characterizing an assembly
 - correctness (eg base level, structural, phasing)
 
 Genome assembly challenging factors
-	- Large size
-	- Repeats
-	- Heterozygosity
-	- There are tools for assessing all of these before attempting a full assembly, eg https://github.com/schatzlab/genomescope
+  - Large size
+  - Repeats
+  - Heterozygosity
+  - There are tools for assessing all of these before attempting a full assembly, eg https://github.com/schatzlab/genomescope
 
 
 Phasing
-	- Collapse haplotypes into a single consensus. Can introduce many errors and fragment the assembly
-	- Assemble into regions that are collapsed and unzipped
-		- Can arbitrarily resolve into primary assembly and alternate haplotigs, or pseudophased diploid genome
-		- Phase into two haploid genomes
+  - Collapse haplotypes into a single consensus. Can introduce many errors and fragment the assembly
+  - Assemble into regions that are collapsed and unzipped
+    - Can arbitrarily resolve into primary assembly and alternate haplotigs, or pseudophased diploid genome
+    - Phase into two haploid genomes
 
 
 
 Core algorithmic concepts
 - Similarity and extension
-	- Identify similarity be identification of similar seed sequences in different reads
-		- Expensive because each read needs to be compared to every other read
-		- Exact matches are really fast, but often need to allow for variation due to errors
-		- A few methods
-			- Canu uses MHAP, a kmer method
-			- Falcon etc use DALIGNER, dynamic programming and kmers
-	- Extension searches for regions of similarity beyond the seed.
-		- It essentially sees if if is possible to zip the reads together starting at the seed
-		- Extension is generally not as expensive is initial identification of similarity, because extension is
+  - Identify similarity be identification of similar seed sequences in different reads
+    - Expensive because each read needs to be compared to every other read
+    - Exact matches are really fast, but often need to allow for variation due to errors
+    - A few methods
+      - Canu uses MHAP, a kmer method
+      - Falcon etc use DALIGNER, dynamic programming and kmers
+  - Extension searches for regions of similarity beyond the seed.
+    - It essentially sees if if is possible to zip the reads together starting at the seed
+    - Extension is generally not as expensive is initial identification of similarity, because extension is
 - k-mers
-	- Short sequences of length k (often 15-70 nucleotides)
-	- Very cheap to work with
-		- Defined memory footprint
-		- If short relative to frequency of errors, can focus on exact matches
-		- Easy to code
-	- Hash tables are sorted lists of k-mer sequences, often with a count of how many times the sequence exists
-	- de Bruijn assembly
-	- identification of similarity seeds
+  - Short sequences of length k (often 15-70 nucleotides)
+  - Very cheap to work with
+    - Defined memory footprint
+    - If short relative to frequency of errors, can focus on exact matches
+    - Easy to code
+  - Hash tables are sorted lists of k-mer sequences, often with a count of how many times the sequence exists
+  - de Bruijn assembly
+  - identification of similarity seeds
 - Burrows-Wheeler transform
-	- Transforms the sequence to a sorted string that is easy to compress
-	- Can work with compressed strings, which is more computationally efficient
-	- Has the very special property that the original string can be recovered from
-	the sorted form
+  - Transforms the sequence to a sorted string that is easy to compress
+  - Can work with compressed strings, which is more computationally efficient
+  - Has the very special property that the original string can be recovered from
+  the sorted form
 
 
 ### Week 5 - Genome annotations
@@ -366,7 +367,69 @@ Core algorithmic concepts
 Yandell and Ence. 2012. A beginner's guide to eukaryotic genome annotation.
 Nature Review Genetics. https://doi.org/10.1038/nrg3174 (Discussion leader: Diego and Jasmine)
 
+#### Agenda
 
+The agenda:
+- Discuss assembly notes from last class
+- Go over today's paper
+- Identify two papers for next week
+- Walk through forking, cloning, and editing final project git repository. Make
+  preliminary edits and push them.
+- Explain how to finish alignment exercise from last class as an assignment
+- Discuss genome annotation notes
+
+#### Notes
+
+A genome assembly is just a big fasta file. Much more interesting with annotations.
+
+Annotation goals include:
+- Identifying repeats
+  - Biologically interesting
+  - Technically important for understanding genome assembly and so that
+  repeats can be masked for some downstream analyses that they can negatively
+  impact
+- Identifying protein coding genes
+  - Build inventory of protein coding genes
+  - Identify introns, exons, promoters
+  - Predict mRNA structure
+- Identifying other regions,
+  - Noncoding RNA sequences
+  - Promoters
+  - etc...
+- Understanding genome structure
+  - Centromeres, telomeres, how scaffolds map to chromosomes
+
+The set of annotations can be encoded in standard formats and loaded into graphical browsers
+or interrogated computationally (as when comparing genome features across species)
+
+Annotations can be made
+- With *ab initio* methods based on the understanding of what these structures look like or
+  particular properties they have
+- Based on comparison to a reference of similar sequences
+  - Looking for known repetitive DNA elements
+  - Blasting known protein coding genes
+
+
+Repeats
+- The extent and composition of repeats varies widely across species
+- Many repeats are well-known conserved sequences
+  - LINEs Long Interspersed Nuclear Elements. Retrotransposons about 7kb in length. They are
+    transcribed and encode a reverse transcriptase that facilitates integration at new sites.
+  - SINEs Short Interspersed Nuclear Elements. 100-700 bp retrotransposons. They do not have their
+    on reverse transcriptase, so they are dependent on those of other elements
+
+Protein coding genes
+- Multiple nested annotations
+  - What is entire region needed for gene to function, including upstream upstream regions,
+    transcribed region, and downstream regions
+  - What region is transcribed
+    - Identify promoter where transcription is initiated
+      - For eukaryotic protein coding genes, the binding site of RNA Polymerase II
+    - Identify the location where transcription is terminated
+
+  - Interons and exons
+  - Mature mRNA sequence prediction
+  - Protein sequence prediction
 
 
 ### Week 6 - Genome annotations

@@ -35,12 +35,22 @@ docker run --rm -ti -v ~/Desktop/eeb723-seqaln:/data/eeb723-seqaln eeb723/course
 
 ## Singularity on Farnam
 
-Connect to Farnam (either with mobaxterm on Windows or ssh command on linux/macOS)
+Connect to Farnam (on windows use [mobaxterm](http://docs.ycrc.yale.edu/clusters-at-yale/access/#connect-from-windows))
+
+``` bash
+ssh netid@farnam.hpc.yale.edu
+```
+
+From the login node, allocate an interactive job with `srun`.
 
 ``` bash
 # interactive session with 2 cores and default 10GiB of RAM
 srun -A eeb723 --pty -p interactive -c 2 bash
+```
 
+Choose a working directory and band-mount it to your container
+
+``` bash
 # if you prefer a different directory use that instead
 mkdir -p /gpfs/ysm/project/eeb723/${USER}/eeb723-seqaln
 singularity shell --shell /bin/bash -B /gpfs/ysm/project/eeb723/${USER}/eeb723-seqaln:/data/eeb723-seqaln docker://eeb723/course_docker

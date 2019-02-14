@@ -375,6 +375,8 @@ The agenda:
 - Identify two papers for next week
 - Walk through forking, cloning, and editing final project git repository. Make
   preliminary edits and push them.
+    - Add a few sentences for Goal and Data sections. Make a list of tools you
+		  plan to use in the Methods section. Send a pull request when you have added these stubs.
 - Explain how to finish alignment exercise from last class as an assignment
 - Discuss genome annotation notes
 

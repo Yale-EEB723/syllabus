@@ -332,7 +332,6 @@ Phasing
     - Phase into two haploid genomes
 
 
-
 Core algorithmic concepts
 - Similarity and extension
   - Identify similarity be identification of similar seed sequences in different reads
@@ -407,9 +406,16 @@ or interrogated computationally (as when comparing genome features across specie
 Annotations can be made
 - With *ab initio* methods based on the understanding of what these structures look like or
   particular properties they have
+- Based on new evidence, like mRNA-seq
 - Based on comparison to a reference of similar sequences
   - Looking for known repetitive DNA elements
   - Blasting known protein coding genes
+
+Assessing annotations
+  - Sensitivity = (True positives) / ( True positives + False negatives )
+	  - BUSCO is a common tool for this
+	- Specificity = (True positives) / ( True positives + False positives )
+	- Accuracy = (Sensitivity + Specificity) / 2
 
 
 Repeats
@@ -419,22 +425,38 @@ Repeats
     transcribed and encode a reverse transcriptase that facilitates integration at new sites.
   - SINEs Short Interspersed Nuclear Elements. 100-700 bp retrotransposons. They do not have their
     on reverse transcriptase, so they are dependent on those of other elements
+- Repeat annotation is complicated by the fact that different instances of the same repeat
+  are not identical, and may be quite different
+- Tools for identifying and masking repeats
+  - RepeatMasker
 
 Protein coding genes
-- Multiple nested annotations
+- The set of protein coding gene predictions is sometimes referred to as a "genebuild"
+- Multiple nested annotation steps
   - What is entire region needed for gene to function, including upstream upstream regions,
     transcribed region, and downstream regions
   - What region is transcribed
     - Identify promoter where transcription is initiated
       - For eukaryotic protein coding genes, the binding site of RNA Polymerase II
-    - Identify the location where transcription is terminated
-
-  - Interons and exons
+    - Identify the location where transcription is terminated and mRNA is polyadenylated
+  - Introns and exons
   - Mature mRNA sequence prediction
   - Protein sequence prediction
+- Commonly used tools
+  - AUGUSTUS http://bioinf.uni-greifswald.de/augustus/ . Developed for human genome.
+	- MAKER http://www.yandell-lab.org/software/maker.html . Annotation workflow that integrates multiple tools.
+	- Funanotate https://funannotate.readthedocs.io/en/latest/ . Initially made for fungal genomes.
+
 
 
 ### Week 6 - Genome annotations
+
+Reading 2: Description of an annotation tool (MAKER or funannotate)
+
+Reading 1: an annotation project
+
+
+
 
 ### Week 7 - Functional genomics
 

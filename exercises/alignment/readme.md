@@ -35,10 +35,11 @@ docker run --rm -ti -v ~/Desktop/eeb723-seqaln:/data/eeb723-seqaln eeb723/course
 
 ## Singularity on Farnam
 
-Connect to Farnam (on windows use [mobaxterm](http://docs.ycrc.yale.edu/clusters-at-yale/access/#connect-from-windows))
+Connect to Farnam (on windows use [mobaxterm](http://docs.ycrc.yale.edu/clusters-at-yale/access/#connect-from-windows)). Set your group to the class group so that files you create will be owned properly.
 
 ``` bash
 ssh netid@farnam.hpc.yale.edu
+newgrp eeb723
 ```
 
 From the login node, allocate an interactive job with `srun`.

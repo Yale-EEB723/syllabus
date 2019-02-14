@@ -44,7 +44,8 @@ bowtie2-build Thermus_thermophilus_TTHNAR1.fa Thermus_thermophilus_TTHNAR1
 # get reads from SRA
 cd $PROJ_DIR
 export SRR=SRR5324768
-fastq-dump --outdir fastq --gzip --skip-technical  --readids --read-filter pass --dumpbase --split-3 --clip ${SRR}
+wget https://github.com/Yale-EEB723/syllabus/raw/master/exercises/alignment/${SRR}_pass_1.fastq.gz
+wget https://github.com/Yale-EEB723/syllabus/raw/master/exercises/alignment/${SRR}_pass_2.fastq.gz
 
 
 ############

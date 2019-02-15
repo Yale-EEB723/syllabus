@@ -33,7 +33,43 @@ Classes will consist of lectures, student led discussions, and computational lab
 
 All materials for the course, including the syllabus, are available at the [course site](https://github.com/Yale-EEB723). The syllabus will be updated as the course progresses, please check it weekly. Please submit suggestions and corrections for the class via the [issue tracker](https://github.com/Yale-EEB723/syllabus/issues).
 
-## Projects
+## Assignments
+
+All assignments will be distributed and submitted via GitHub. Here are the
+basic steps:
+
+1. Go to the class repository for the assignment, for example
+https://github.com/Yale-EEB723/finalproject . Click the "Fork" button
+to create a fork. This creates your own copy of the repository with its own url,
+for example https://github.com/YourGitHubUsername/finalproject .
+
+2. Clone the repository to your laptop. On
+your repository website, click on the green "Clone or download" button and copy
+the link there. It will be something like `https://github.com/YourGitHubUsername/finalproject.git`
+
+3. Open a Terminal window on your laptop. `cd` to a directory where you keep your
+git repositories. Then clone your form of the repository (substitute the link
+copied above): `git clone https://github.com/YourGitHubUsername/finalproject.git`
+
+4. Edit the files and sage changes. Use `git add` to add any new changes.
+
+5. Commit the changes with `git commit -am "my message"` where "my message" describes
+the changes you made. commit often as you work.
+
+6. Push the changes back to GitHub with `git push`.
+
+7. Once the assignment is complete, return to the repo page at GitHub, for example
+https://github.com/YourGitHubUsername/finalproject. Make sure all your changes are
+reflected there. Save, commit, and push again if not.
+
+8. Click the "New pull request" button. Then click the "Create pull request" button
+and submit the pull request. This will notify the instructor that you have
+submitted the assignment. Some assignments will be submitted multiple
+times as sequential tasks are completed, which will require multiple pull
+requests.
+
+
+### Final Projects
 
 Each student will work on a project, either in collaboration or individually. The project must relate to one or more themes covered in the course of the class. Final project plans will be presented in week 3 of the course. After the team and topic are set, fork the repository at https://github.com/Yale-EEB723/finalproject to create a repository for your project. Submit the project as a pull request. Your forked repository can be private if it includes unpublished original data, but if private all course members should be granted access so they can view it and provide feedback.
 
@@ -61,6 +97,10 @@ may relate to specific phenotypes
 
 - Compare within population genome variation to variation at broader phylogenetic scales
 
+### Exercises
+
+Several exercises will be assigned. They will usually be started in class, and then
+due by the following week.
 
 ## Reading
 
@@ -87,6 +127,7 @@ Install [git](https://git-scm.com/downloads).
 Install the [Atom](https://atom.io) text editor.
 
 Install [Docker](https://www.docker.com/get-started).
+
 
 
 ## Schedule
@@ -431,8 +472,8 @@ Repeats
   - RepeatMasker
 
 Protein coding genes
-- The set of protein coding gene predictions is sometimes referred to as a "genebuild"
 - Multiple nested annotation steps
+  - Gene finding
   - What is entire region needed for gene to function, including upstream upstream regions,
     transcribed region, and downstream regions
   - What region is transcribed
@@ -451,11 +492,20 @@ Protein coding genes
 
 ### Week 6 - Genome annotations
 
-Reading 2: Description of an annotation tool (MAKER or funannotate)
+#### Reading
 
-Reading 1: an annotation project
+Holt and Yandell. 2011. MAKER2: an annotation pipeline and genome-database
+management tool for second-generation genome projects. BMC Bioinformatics.
+https://doi.org/10.1186/1471-2105-12-491 (Discussion leader: )
 
+Kim et al. 2018. The genome of common long-arm octopus Octopus minor.
+GigaScience. https://doi.org/10.1093/gigascience/giy119 (Discussion leader: )
 
+MarkDown guide - https://guides.github.com/features/mastering-markdown/
+
+#### Agenda
+
+#### Notes
 
 
 ### Week 7 - Functional genomics
@@ -527,6 +577,9 @@ Jain et al. Nanopore sequencing and assembly of a human genome with ultra-long
 reads. Nature Biotech. https://doi.org/10.1038/nbt.4060 . (For an interesting
 set of followup analyses see https://genomeinformatics.github.io/na12878update/ )
 
+Kim et al. 2018. The genome of common long-arm octopus Octopus minor.
+GigaScience. https://doi.org/10.1093/gigascience/giy119
+
 Mohr et al. 2017. Improved de novo Genome Assembly: Linked-Read Sequencing
 Combined with Optical Mapping Produce a High Quality Mammalian Genome at
 Relatively Low Cost. BioRxiv. https://doi.org/10.1101/128348
@@ -544,12 +597,20 @@ Vertebrate Genomes Project - https://vgp.github.io/genomeark/
 
 ### Genome annotation
 
-Aken et al. 2016. The Ensembl gene annotation system. Database. https://doi.org/10.1093/database/baw093
+Aken et al. 2016. The Ensembl gene annotation system. Database.
+https://doi.org/10.1093/database/baw093
 
-Mudge and Harrow. 2016 The state of play in higher eukaryote gene annotation. https://doi.org/10.1038/nrg.2016.119
+Holt and Yandell. 2011. MAKER2: an annotation pipeline and genome-database
+management tool for second-generation genome projects. BMC Bioinformatics.
+https://doi.org/10.1186/1471-2105-12-491
+
+Mudge and Harrow. 2016 The state of play in higher eukaryote gene annotation.
+https://doi.org/10.1038/nrg.2016.119
 
 Yandell and Ence. 2012. A beginner's guide to eukaryotic genome annotation.
 Nature Review Genetics. https://doi.org/10.1038/nrg3174
+
+
 
 
 
@@ -572,11 +633,11 @@ O'Connor et al. 2018. Reconstruction of the diapsid ancestral genome permits chr
 
 ### Making associations between genomes and phenotypes with comparative methods
 
-
-
 ### Phylogenetic comparative methods
 
 ### General computational skills and methods
 
-
 ## Links and other general resources
+
+MarkDown guide - https://guides.github.com/features/mastering-markdown/ . Useful for writing text that
+will be pushed to GitHub, among many other things.

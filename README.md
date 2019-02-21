@@ -393,11 +393,6 @@ Core algorithmic concepts
   - Hash tables are sorted lists of k-mer sequences, often with a count of how many times the sequence exists
   - de Bruijn assembly
   - identification of similarity seeds
-- Burrows-Wheeler transform
-  - Transforms the sequence to a sorted string that is easy to compress
-  - Can work with compressed strings, which is more computationally efficient
-  - Has the very special property that the original string can be recovered from
-  the sorted form
 
 
 ### Week 5 - Genome annotations
@@ -456,7 +451,7 @@ Assessing annotations
   - Sensitivity = (True positives) / ( True positives + False negatives )
 	  - BUSCO is a common tool for this
 	- Specificity = (True positives) / ( True positives + False positives )
-	- Accuracy = (Sensitivity + Specificity) / 2
+	- Accuracy = (Sensitivity + Specificity) / 2. If accuracy is high you know you have good sensitivity and specificity, but if it is low could be problems with sensitivity or specificity or both.
 
 
 Repeats
@@ -494,18 +489,37 @@ Protein coding genes
 
 #### Reading
 
+Discussion leaders: Elyse Parker and Dan MacGuigan
+
 Holt and Yandell. 2011. MAKER2: an annotation pipeline and genome-database
 management tool for second-generation genome projects. BMC Bioinformatics.
-https://doi.org/10.1186/1471-2105-12-491 (Discussion leader: )
+https://doi.org/10.1186/1471-2105-12-491
 
 Kim et al. 2018. The genome of common long-arm octopus Octopus minor.
-GigaScience. https://doi.org/10.1093/gigascience/giy119 (Discussion leader: )
+GigaScience. https://doi.org/10.1093/gigascience/giy119
 
 MarkDown guide - https://guides.github.com/features/mastering-markdown/
 
 #### Agenda
 
 #### Notes
+
+Success of *ab initio* methods
+- Tests of *ab initio* methods work well in species with well annotated genomes, because the gene training datasets are so good. It is easy to find
+genes when you know what they look like.
+- *Ab initio* methods work less well alone in poorly studied species without good existing gene models to server as training datasets. Additional evidence, like RNAseq, greatly improves outcome in these projects.
+
+
+Mapping
+- Mapping is a general task that comes up in many types of genomic analyses.
+- It is a highly asymmetric sequence comparison, usually between reads and
+reference sequences
+
+- Burrows-Wheeler transform
+  - Transforms the sequence to a sorted string that is easy to compress
+  - Can work with compressed strings, which is more computationally efficient
+  - Has the very special property that the original string can be recovered from
+  the sorted form
 
 
 ### Week 7 - Functional genomics
@@ -619,6 +633,14 @@ Nature Review Genetics. https://doi.org/10.1038/nrg3174
 Li et al. 2011. Chromosome Size in Diploid Eukaryotic Species Centers on the
 Average Length with a Conserved Boundary. Molecular Biology and Evolution.
 https://doi.org/10.1093/molbev/msr011
+
+
+Harmston et al. 2017. Topologically associating domains are ancient features
+that coincide with Metazoan clusters of extreme noncoding conservation.
+Nature Communications. https://doi.org/10.1038/s41467-017-00524-5
+
+
+
 
 ### Functional genomics
 

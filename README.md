@@ -509,7 +509,28 @@ Success of *ab initio* methods
 genes when you know what they look like.
 - *Ab initio* methods work less well alone in poorly studied species without good existing gene models to server as training datasets. Additional evidence, like RNAseq, greatly improves outcome in these projects.
 
+Annotation Edit Distance (AED)
+- A measure the distance between intron and exon coordinates of two annotations
+for the same gene, where 0 is identical and 1 is completely different
+- This distance indicate incongruence between annotation methods and is
+interpreted as uncertainty about an annotation
+- Genes with higher AED tend to
+	- Have fewer PFAM domains
+	- Change more in subsequent annotations that include additional information
+	- Have less evidence of orthologs in closely related species
+
+
+MAKER is now part of the GMOD family of genomic tools - http://gmod.org/wiki/Main_Page
+
+Ian notes that `conda install -c bioconda maker` works well for installation
+
 A detailed guide on how to use MAKER - https://gist.github.com/darencard/bb1001ac1532dd4225b030cf0cd61ce2
+- Identify and mask repeats
+- Build gene models based on RNAseq data and homology to genes of related species
+- Train *ab initio* programs based on these evidence-based models
+- Rerun MAKER with *ab initio* prediction
+- Rerun MAKER again to refine everything
+
 
 Mapping
 - Mapping is a general task that comes up in many types of genomic analyses.
@@ -566,6 +587,9 @@ Alkan et al. 2011. Genome structural variation discovery and genotyping. Nature 
 Bradnam et al. 2013. Assemblathon 2: evaluating de novo methods of genome
 assembly in three vertebrate species. GigaScience.
 https://doi.org/10.1186/2047-217X-2-10
+
+Gurevich et al. 2013. QUAST: quality assessment tool for genome assemblies
+Bioinformatics. https://doi.org/10.1093/bioinformatics/btt086
 
 Koren et al. 2018 De novo assembly of haplotype-resolved genomes with trio binning.
 Nature Biotechnology. https://doi.org/10.1038/nbt.4277 *Good overview of phasing*

@@ -509,6 +509,7 @@ Success of *ab initio* methods
 genes when you know what they look like.
 - *Ab initio* methods work less well alone in poorly studied species without good existing gene models to server as training datasets. Additional evidence, like RNAseq, greatly improves outcome in these projects.
 
+A detailed guide on how to use MAKER - https://gist.github.com/darencard/bb1001ac1532dd4225b030cf0cd61ce2
 
 Mapping
 - Mapping is a general task that comes up in many types of genomic analyses.
@@ -651,6 +652,13 @@ Kim et al. 2017. Reconstruction and evolutionary history of eutherian chromosome
 Demas et al. 2018. Reconstruction of avian ancestral karyotypes reveals differences in the evolutionary history of macro- and microchromosomes. BMC Genome Biology. https://doi.org/10.1186/s13059-018-1544-8
 
 O'Connor et al. 2018. Reconstruction of the diapsid ancestral genome permits chromosome evolution tracing in avian and non-avian dinosaurs. https://www.nature.com/articles/s41467-018-04267-9
+
+### Other sequencing applications and perspectives
+
+Cheifet 2019. Where is genomics going next? Genome Biology.
+https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1626-2
+
+Pomerantz et al. 2018. Real-time DNA barcoding in a rainforest using nanopore sequencing: opportunities for rapid biodiversity assessments and local capacity building GigaScience. https://academic.oup.com/gigascience/article/7/4/giy033/4958980
 
 
 ### Making associations between genomes and phenotypes with comparative methods

@@ -546,6 +546,34 @@ reference sequences
 
 ### Week 7 - Functional genomics
 
+Discussion leader: Andrew Verdegaal
+
+RNAseq
+- Randomly sequence RNA from a cell or collection of cells
+- In nearly all cases mRNA is reverse transcribed into complimentary DNA (cDNA)
+and that is analyzed with with short read DNA sequencing (eg Illumina)
+- The frequency of reads for each gene are used as a proxy for abundance of transcripts of each gene
+(often referred to as expression)
+- If a suitable high quality reference is available, it can also be used as a proxy for abundance
+of splice variants.
+- Replaced Expressed Tags (ESTs), shotgun sequencing of cDNA with Sanger sequencing
+- Full length sequencing of cDNA (eg PacBio isoseq, Oxford Nanopore cDNA sequencing) provides
+a better understanding of slice variants than short reads, but lower throughput provides less
+statistical power.
+- What it does and doesn't do
+	- It does not measure absolute transcript count
+	- It does not measure the relative expression of different genes
+	- It does come close to measuring the differential expression of the same gene
+	in different tissues.
+- Analysis steps
+	- Map to reference, which can be gene models from genome or transcriptome assemblies.
+	Many short read aligners can do this, eg Bowtie
+	- Process mapping data to derive the counts of reads for transcripts and genes.
+
+	ATACseq
+	- https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/0471142727.mb2129s109
+
+
 ### Week 8 - Phylogenetic methods
 
 ### Week 9 - Phylogenetic comparative methods
@@ -664,10 +692,12 @@ Harmston et al. 2017. Topologically associating domains are ancient features
 that coincide with Metazoan clusters of extreme noncoding conservation.
 Nature Communications. https://doi.org/10.1038/s41467-017-00524-5
 
-
+Rowley and Victor. 2018. Organizational principles of 3D genome architecture.
+Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0060-8
 
 
 ### Functional genomics
+
 
 ### Reconstructing the history of genome evolution
 

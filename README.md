@@ -546,7 +546,17 @@ reference sequences
 
 ### Week 7 - Functional genomics
 
+#### Reading
 Discussion leader: Andrew Verdegaal
+
+Zhang et al. 2019. Comparative Analysis of Droplet-Based Ultra-High-Throughput
+Single-Cell RNA-Seq Systems. Molecular Cell. https://doi.org/10.1016/j.molcel.2018.10.020
+
+
+#### Agenda
+
+#### Notes
+
 
 RNAseq
 - Randomly sequence RNA from a cell or collection of cells
@@ -698,6 +708,8 @@ Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0060-8
 
 ### Functional genomics
 
+Zhang et al. 2019. Comparative Analysis of Droplet-Based Ultra-High-Throughput
+Single-Cell RNA-Seq Systems. Molecular Cell. https://doi.org/10.1016/j.molcel.2018.10.020
 
 ### Reconstructing the history of genome evolution
 

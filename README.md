@@ -708,6 +708,9 @@ Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0060-8
 
 ### Functional genomics
 
+Hrdlickova et l. 2016. RNA-Seq methods for transcriptome analysis. WIREs RNA.
+https://doi.org/10.1002/wrna.1364
+
 Zhang et al. 2019. Comparative Analysis of Droplet-Based Ultra-High-Throughput
 Single-Cell RNA-Seq Systems. Molecular Cell. https://doi.org/10.1016/j.molcel.2018.10.020
 

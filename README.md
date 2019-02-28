@@ -586,11 +586,28 @@ statistical power.
 	Many short read aligners can do this, eg Bowtie
 	- Process mapping data to derive the counts of reads for transcripts and genes.
 
-	ATACseq
-	- https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/0471142727.mb2129s109
+ATACseq
+	- Assay for Transposase­ Accessible Chroma­tin using sequencing
+	- Transposase preferentially targets regions that are free of nucleosomes
+	- Can also map nucleosome composition
+
+ChIPseq
+	-  CHromatin ImmunopreciPitation Sequencing
+	- Use antibodies to enrich chromatin with specific proteins, eg transcription factors
+	- Sequence isolated Chromatin
+	- Identify transcription binding sites etc...
 
 
-### Week 8 - Phylogenetic methods
+### Week 8 - Genome structure
+
+Please post two commits during the week before this class.
+
+#### Reading
+
+#### Agenda
+
+#### Notes
+
 
 ### Week 9 - Phylogenetic comparative methods
 
@@ -719,6 +736,9 @@ https://doi.org/10.1002/wrna.1364
 
 Klemm et al. 2019. Chromatin accessibility and the regulatory epigenome.
 Nature Reviews Genetics.  https://doi.org/10.1038/s41576-018-0089-8
+
+La Manno et al. 2018. RNA velocity of single cells. Nature.
+https://doi.org/10.1038/s41586-018-0414-6
 
 Zhang et al. 2019. Comparative Analysis of Droplet-Based Ultra-High-Throughput
 Single-Cell RNA-Seq Systems. Molecular Cell. https://doi.org/10.1016/j.molcel.2018.10.020

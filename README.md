@@ -602,7 +602,13 @@ ChIPseq
 
 Please post two commits during the week before this class.
 
+
 #### Reading
+
+Discussion leader: Nick Fisk
+
+Rowley and Victor. 2018. Organizational principles of 3D genome architecture.
+Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0060-8
 
 #### Agenda
 
@@ -716,10 +722,11 @@ Nature Review Genetics. https://doi.org/10.1038/nrg3174
 
 ### Genome structure
 
+A collection of papers on 3D genome structure in Nature: https://www.nature.com/collections/rsxlmsyslk
+
 Li et al. 2011. Chromosome Size in Diploid Eukaryotic Species Centers on the
 Average Length with a Conserved Boundary. Molecular Biology and Evolution.
 https://doi.org/10.1093/molbev/msr011
-
 
 Harmston et al. 2017. Topologically associating domains are ancient features
 that coincide with Metazoan clusters of extreme noncoding conservation.

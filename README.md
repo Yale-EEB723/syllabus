@@ -586,16 +586,10 @@ statistical power.
 	Many short read aligners can do this, eg Bowtie
 	- Process mapping data to derive the counts of reads for transcripts and genes.
 
-ATACseq
-	- Assay for Transposase­ Accessible Chroma­tin using sequencing
-	- Transposase preferentially targets regions that are free of nucleosomes
-	- Can also map nucleosome composition
-
-ChIPseq
-	-  CHromatin ImmunopreciPitation Sequencing
-	- Use antibodies to enrich chromatin with specific proteins, eg transcription factors
-	- Sequence isolated Chromatin
-	- Identify transcription binding sites etc...
+	GRO-seq
+	- Actively transcribed mRNA is labeled with BrdU, isolated, reverse transcribed, and sequenced.
+	- Similar to RNA-seq, but only sequences mRNA that is transcribed during BrdU pulse.
+	- Gives a way to observe active transcription rather than just transcript abundance.
 
 
 ### Week 8 - Genome structure
@@ -614,6 +608,86 @@ Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0060-8
 
 #### Notes
 
+Definitions
+	- Topologically Associating Domains (TADs)
+	- Nucleosome - A set of 8 histone proteins (two each of H2A, H2B, H3, and H4)
+	wrapped by about 147bp of DNA, along with about 80bp of linker DNA that connects to the next nucleosome.
+	If not packed further, they look like beads on a string. Addition of H1 packs nucleosomes
+	into further coiled 30 nm fiber
+	- Compartmental domains - a linear domain containing one or more genes that is in the
+	same transcriptional or chromatin state.
+	- Transcription complex - the association of DNA bound proteins including
+	polymerase and transcription factors that is resposible for the initiation
+	if transcription.
+	- Promoter - the site where the transcription complex assembles. Includes the TATA box.
+	- Enhancer - a sequence that enhances the transcription rate of a gene. May be upstream,
+	within, or downstream of a gene. Can be quite far.
+	- Conserved Noncoding Elements (CNE) region outside of coding regions that shows
+	high sequence conservation between species
+	- Genomic Regulatory Blocks (GRB) - clusters of syntenic CNEs.
+
+
+
+Several components of genome consideration
+- 1D linear structure
+	- Linkage, physical proximity as originally detected by low recombination rate
+	- Synteny, the conservation of linear gene location (ie linkage)
+- Chromatin accessibility and association with proteins such as transcription factors
+- 3D packing of chromatin in nucleus
+
+Packing of DNA in space and time
+- https://en.wikipedia.org/wiki/Chromatin#/media/File:Chromatin_Structures.png
+- Interphase packing is most relevant to most functional genomics questions
+- Loop extrusion
+	- https://www.youtube.com/watch?v=Tn5qgEqWgW8
+	- Acts on beads-on-a-string packed DNA
+	- Loop extent controlled by CTCF
+
+
+Sample pre/ sequencing tools relevant to genome structure
+- Innovations in sample prep and enrichment allow sequencers to be adapted into
+instruments that measure all kinds of structural and functional features.
+
+- Hi-C
+	- Crosslink chromatin
+	- Digest, label, and ligate
+	- Fragment, isolate, and sequence
+	- Results in read pairs that come from regions that were in close physical proximity
+	- Uses
+		- Identify sequences that were in same cell together, eg to assist with metagenomes
+		- Identify linked sequences, eg to assist with assembly scaffolding
+		- Identify how chromosomes are packed in nucleus
+	- Types of HiC https://www.nature.com/articles/nrg3454 Box 1
+		- 3C, chromosome conformation capture. Provides many interactions for sites throughout the genome.
+		- 4C, circular 3C. Observe the regions that interact with a particular locus. Allows deeper data for one spot.
+		- 5C, investigate how associations correspond to other processes, like transcription.
+		- ChiaPET, interrogate long range interactions facilitated by particular proteins.
+	- Interpreting HiC data - https://www.nature.com/articles/nrg3454/figures/1
+
+- ATACseq
+	- Assay for Transposase­ Accessible Chroma­tin using sequencing
+	- Transposase preferentially targets regions that are free of nucleosomes
+	- Can also map nucleosome composition
+
+- ChIPseq
+	- CHromatin ImmunopreciPitation Sequencing
+	- Use antibodies to enrich chromatin with specific proteins, eg transcription factors
+	- Sequence isolated Chromatin
+	- Identify transcription binding sites etc...
+
+
+The relationship between genome structure and genome function
+- Structure may regulate transcription
+	- Harmston https://doi.org/10.1038/s41467-017-00524-5
+		- "GRB boundaries coincide with the boundaries of TADs"
+		- TADs may be highly conserved regulatory domains
+		- Presents a cautionary tale
+			- An intronic SNP in FTO is strongly associated with obesity.
+			- Many theses and drug companies tried to figure out what FTO does to target it
+			- But turns out that the intronic FTO SNP is in a CNE (conserved non-coding element) physically associates with a distant gene and regulates IRX3 
+- Structure may be a result of transcriptional state
+	- Rowley https://doi.org/10.1038/s41576-018-0060-8
+- Compartmental domains may be more highly conserved than specific sequences
 
 ### Week 9 - Phylogenetic comparative methods
 

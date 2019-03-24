@@ -657,7 +657,7 @@ instruments that measure all kinds of structural and functional features.
 		- Identify sequences that were in same cell together, eg to assist with metagenomes
 		- Identify linked sequences, eg to assist with assembly scaffolding
 		- Identify how chromosomes are packed in nucleus
-	- Types of HiC https://www.nature.com/articles/nrg3454 Box 1
+	- HiC related methods https://www.nature.com/articles/nrg3454 Box 1
 		- 3C, chromosome conformation capture. Provides many interactions for sites throughout the genome.
 		- 4C, circular 3C. Observe the regions that interact with a particular locus. Allows deeper data for one spot.
 		- 5C, investigate how associations correspond to other processes, like transcription.
@@ -684,16 +684,23 @@ The relationship between genome structure and genome function
 		- Presents a cautionary tale
 			- An intronic SNP in FTO is strongly associated with obesity.
 			- Many theses and drug companies tried to figure out what FTO does to target it
-			- But turns out that the intronic FTO SNP is in a CNE (conserved non-coding element) physically associates with a distant gene and regulates IRX3 
+			- But turns out that the intronic FTO SNP is in a CNE (conserved non-coding element) physically associates with a distant gene and regulates IRX3
 - Structure may be a result of transcriptional state
 	- Rowley https://doi.org/10.1038/s41576-018-0060-8
 - Compartmental domains may be more highly conserved than specific sequences
 
 ### Week 9 - Phylogenetic comparative methods
 
+Please read the following material from Harmon 2018 https://lukejharmon.github.io/pcm/ :
+- Chapter 3 Brownian Models (a detailed reading of section 3.3 is not required, though it is quite interesting).
+- Chapter 7
+
 ### Week 10 - Genome evolution
 
+Discussion leader: Arianna Lord
+
 ### Week 11 - Comparative functional genomics
+
 
 ### Week 12 - Project
 
@@ -809,6 +816,9 @@ Nature Communications. https://doi.org/10.1038/s41467-017-00524-5
 Rowley and Victor. 2018. Organizational principles of 3D genome architecture.
 Nature Reviews Genetics. https://doi.org/10.1038/s41576-018-0060-8
 
+Spielmann et al. 2018. Structural variation in the 3D genome. Nature Reviews Genetics.
+https://doi.org/10.1038/s41576-018-0007-0
+
 
 ### Functional genomics
 
@@ -824,13 +834,6 @@ https://doi.org/10.1038/s41586-018-0414-6
 Zhang et al. 2019. Comparative Analysis of Droplet-Based Ultra-High-Throughput
 Single-Cell RNA-Seq Systems. Molecular Cell. https://doi.org/10.1016/j.molcel.2018.10.020
 
-### Reconstructing the history of genome evolution
-
-Kim et al. 2017. Reconstruction and evolutionary history of eutherian chromosomes. PNAS. https://doi.org/10.1073/pnas.1702012114
-
-Demas et al. 2018. Reconstruction of avian ancestral karyotypes reveals differences in the evolutionary history of macro- and microchromosomes. BMC Genome Biology. https://doi.org/10.1186/s13059-018-1544-8
-
-O'Connor et al. 2018. Reconstruction of the diapsid ancestral genome permits chromosome evolution tracing in avian and non-avian dinosaurs. https://www.nature.com/articles/s41467-018-04267-9
 
 ### Other sequencing applications and perspectives
 
@@ -839,10 +842,31 @@ https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1626-2
 
 Pomerantz et al. 2018. Real-time DNA barcoding in a rainforest using nanopore sequencing: opportunities for rapid biodiversity assessments and local capacity building GigaScience. https://academic.oup.com/gigascience/article/7/4/giy033/4958980
 
+### Phylogenetic comparative methods
+
+Harmon 2018. Phylogenetic Comparative Methods. https://lukejharmon.github.io/pcm/
+
+My previous course on phylogenetic biology - https://github.com/Phylogenetics-Brown-BIOL1425/phylogeneticbiology
+
+### Reconstructing the history of genome evolution
+
+Kim et al. 2017. Reconstruction and evolutionary history of eutherian chromosomes. PNAS. https://doi.org/10.1073/pnas.1702012114
+
+Demas et al. 2018. Reconstruction of avian ancestral karyotypes reveals differences in the evolutionary history of macro- and microchromosomes. BMC Genome Biology. https://doi.org/10.1186/s13059-018-1544-8
+
+O'Connor et al. 2018. Reconstruction of the diapsid ancestral genome permits chromosome evolution tracing in avian and non-avian dinosaurs. https://www.nature.com/articles/s41467-018-04267-9
+
+### Comparative genomics
+
+Compara - pre-built comparative genomics analyses. https://useast.ensembl.org/info/genome/compara/index.html
+
+Alföldi and Lindblad-Toh. 2013. Comparative genomics as a tool to understand evolution and disease. Genome Research. https://doi.org/10.1186/10.1101/gr.157503.113
+
 
 ### Making associations between genomes and phenotypes with comparative methods
 
-### Phylogenetic comparative methods
+
+
 
 ### General computational skills and methods
 

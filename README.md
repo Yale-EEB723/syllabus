@@ -691,9 +691,32 @@ The relationship between genome structure and genome function
 
 ### Week 9 - Phylogenetic comparative methods
 
+#### Reading
+
 Please read the following material from Harmon 2018 https://lukejharmon.github.io/pcm/ :
 - Chapter 3 Brownian Models (a detailed reading of section 3.3 is not required, though it is quite interesting).
 - Chapter 7
+
+#### Agenda
+
+Trait evolution
+1. Background from first [Paul Lewis Likelihood lecture](https://molevol.mbl.edu/index.php/Paul_Lewis), through slide 40.
+	- Exercise: Make a Newick tree, for example `(A,(B,(C,(D,E))))` or `(A:4,(B:3,(C:2,(D:2,E:1))))`, and view it at http://etetoolkit.org/treeview/ .
+
+2. Lecture on the evolution of discrete traits in the context of
+molecular sequence data. Slides at https://github.com/Phylogenetics-Brown-BIOL1425/phylogeneticbiology/blob/master/lectures/Lecture_3.pdf .
+
+3. Discussion of discrete traits Chapter 7 from Harmon reading.
+
+4. Discussion of continuous traits Chapter 3 from Harmon reading - https://lukejharmon.github.io/pcm/chapter3_bmintro/.
+
+Application of model based approaches to genomes: beyond sequence evolution
+
+
+
+
+#### Notes
+
 
 ### Week 10 - Genome evolution
 
@@ -862,11 +885,15 @@ Compara - pre-built comparative genomics analyses. https://useast.ensembl.org/in
 
 Alföldi and Lindblad-Toh. 2013. Comparative genomics as a tool to understand evolution and disease. Genome Research. https://doi.org/10.1186/10.1101/gr.157503.113
 
+Roy and Gilbert. 2005. Rates of intron loss and gain: Implications for early eukaryotic evolution. PNAS. https://doi.org/10.1073/pnas.0500383102
+
+Simakov and Kawashima. 2017. Independent evolution of genomic characters during major metazoan transitions. Developmental Biology. https://doi.org/10.1016/j.ydbio.2016.11.012
 
 ### Making associations between genomes and phenotypes with comparative methods
 
+Hiller et al. 2012. A "Forward Genomics" Approach Links Genotype to Phenotype using Independent Phenotypic Losses among Related Species. Cell Reports. https://doi.org/10.1016/j.celrep.2012.08.032
 
-
+Sharma et al. 2018 A genomics approach reveals insights into the importance of gene losses for mammalian adaptations. Nature Communications.  https://doi.org/10.1038/s41467-018-03667-1
 
 ### General computational skills and methods
 

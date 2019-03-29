@@ -720,7 +720,13 @@ Application of model based approaches to genomes: beyond sequence evolution
 
 ### Week 10 - Genome evolution
 
+#### Reading
+
 Discussion leader: Arianna Lord
+
+Zhao and Schranz. 2019. Network-based microsynteny analysis identifies major differences and genomic outliers in mammalian and angiosperm genomes. PNAS. https://www.pnas.org/content/116/6/2165
+
+#### Agenda
 
 ### Week 11 - Comparative functional genomics
 
@@ -822,8 +828,6 @@ Nature Review Genetics. https://doi.org/10.1038/nrg3174
 
 
 
-
-
 ### Genome structure
 
 A collection of papers on 3D genome structure in Nature: https://www.nature.com/collections/rsxlmsyslk
@@ -883,11 +887,13 @@ O'Connor et al. 2018. Reconstruction of the diapsid ancestral genome permits chr
 
 Compara - pre-built comparative genomics analyses. https://useast.ensembl.org/info/genome/compara/index.html
 
-Alföldi and Lindblad-Toh. 2013. Comparative genomics as a tool to understand evolution and disease. Genome Research. https://doi.org/10.1186/10.1101/gr.157503.113
+Alföldi and Lindblad-Toh. 2013. Comparative genomics as a tool to understand evolution and disease. Genome Research. https://doi.org/10.1101/gr.157503.113
 
 Roy and Gilbert. 2005. Rates of intron loss and gain: Implications for early eukaryotic evolution. PNAS. https://doi.org/10.1073/pnas.0500383102
 
 Simakov and Kawashima. 2017. Independent evolution of genomic characters during major metazoan transitions. Developmental Biology. https://doi.org/10.1016/j.ydbio.2016.11.012
+
+Zhao and Schranz. 2019. Network-based microsynteny analysis identifies major differences and genomic outliers in mammalian and angiosperm genomes. PNAS. https://www.pnas.org/content/116/6/2165
 
 ### Making associations between genomes and phenotypes with comparative methods
 

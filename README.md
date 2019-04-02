@@ -728,8 +728,20 @@ Zhao and Schranz. 2019. Network-based microsynteny analysis identifies major dif
 
 #### Agenda
 
+#### Notes
+
 ### Week 11 - Comparative functional genomics
 
+#### Reading
+
+Discussion leaders: Jessica Glass and Spencer Irvine
+
+Bhattacharya et al. 2016. Comparative genomics explains the evolutionary success of reef-forming corals.
+eLife. https://doi.org/10.7554/eLife.13288
+
+#### Agenda
+
+#### Notes
 
 ### Week 12 - Project
 

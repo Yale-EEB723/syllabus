@@ -728,9 +728,18 @@ Zhao and Schranz. 2019. Network-based microsynteny analysis identifies major dif
 
 #### Agenda
 
+- Paper discussion
+- Everyone provides summary of goal and state of their project
+- Identify overlap between projects
+- Time to work on projects, including discussion of shared aspects of projects
+
+
 #### Notes
 
+
 ### Week 11 - Comparative functional genomics
+
+Make at least 4 commits to your project before today's class.
 
 #### Reading
 
@@ -740,6 +749,12 @@ Bhattacharya et al. 2016. Comparative genomics explains the evolutionary success
 eLife. https://doi.org/10.7554/eLife.13288
 
 #### Agenda
+
+- Paper discussion
+- Pair-review projects
+- Work on projects
+
+
 
 #### Notes
 

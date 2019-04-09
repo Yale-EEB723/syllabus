@@ -718,7 +718,7 @@ Application of model based approaches to genomes: beyond sequence evolution
 #### Notes
 
 
-### Week 10 - Genome evolution
+### Week 10 (April 4) - Genome evolution
 
 #### Reading
 
@@ -737,7 +737,7 @@ Zhao and Schranz. 2019. Network-based microsynteny analysis identifies major dif
 #### Notes
 
 
-### Week 11 - Comparative functional genomics
+### Week 11 (April 11) - Comparative functional genomics
 
 Make at least 4 commits to your project before today's class.
 
@@ -758,9 +758,12 @@ eLife. https://doi.org/10.7554/eLife.13288
 
 #### Notes
 
-### Week 12 - Project
+### Week 12 (April 18) - Project
 
-### Week 13 - Project
+Project presentations:
+- Nick Fisk
+
+### Week 13  (April 25)- Project
 
 
 ## Bibliography
@@ -800,6 +803,10 @@ Nature Biotechnology. https://doi.org/10.1038/nbt.4277 *Good overview of phasing
 
 Paajanen et al. 2019. A critical comparison of technologies for a plant genome
 sequencing project. GigaScience. https://doi.org/10.1093/gigascience/giy163
+
+
+Rice and Green. 2019. New Approaches for Genome Assembly and Scaffolding.
+Annual Review of Animal Biosciences. https://doi.org/10.1146/annurev-animal-020518-115344
 
 Schatz et al. 2010. Assembly of large genomes using second-generation sequencing.
 Genome Research. https://doi.org/10.1101/gr.101360.109

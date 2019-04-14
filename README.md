@@ -762,6 +762,8 @@ eLife. https://doi.org/10.7554/eLife.13288
 
 Project presentations:
 - Nick Fisk
+- Ian Gilman
+- Arianna Lord
 
 ### Week 13  (April 25)- Project
 
